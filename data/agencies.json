@@ -1,0 +1,80 @@
+[
+  {
+    "id": "mahavirtual",
+    "name": "MAHA Virtual",
+    "emoji": "🎮",
+    "description": "Agensi yang berfokus pada talenta di dunia game kompetitif. Para streamer dari MAHA Virtual dikenal karena skill bermain game yang luar biasa dan sesi streaming yang penuh aksi.",
+    "benefits": [
+      "+15% Peningkatan perolehan EXP dari semua sumber.",
+      "Meningkatkan stat ATK dasar secara permanen."
+    ],
+    "drawbacks": [
+      "-15% Pengurangan perolehan Prisma dari semua sumber."
+    ]
+  },
+  {
+    "id": "prism_project",
+    "name": "Prism Project",
+    "emoji": "💎",
+    "description": "Sebuah agensi yang berfokus pada konten idol dan interaksi dengan penggemar. Dikenal dengan kemampuan mereka menggalang dana dan memonetisasi konten secara efektif.",
+    "benefits": [
+      "+20% Peningkatan perolehan Prisma dari semua sumber.",
+      "Meningkatkan stat DEF dasar secara permanen."
+    ],
+    "drawbacks": [
+      "-20% Pengurangan perolehan EXP dari semua sumber."
+    ]
+  },
+  {
+    "id": "meisoncafe",
+    "name": "Maison du Café",
+    "emoji": "🔮",
+    "description": "Agensi misterius yang menaungi talenta dengan lore fantasi yang kuat. Mereka percaya pada keseimbangan dan pertumbuhan yang stabil di semua aspek.",
+    "benefits": [
+      "Bonus stat dasar yang seimbang (HP, ATK, DEF, SPD).",
+      "Tidak ada penalti pada perolehan EXP atau Prisma."
+    ],
+    "drawbacks": [
+      "Tidak memiliki bonus perolehan sumber daya yang signifikan."
+    ]
+  },
+  {
+    "id": "ateliernova",
+    "name": "Atelier Nova",
+    "emoji": "🎨",
+    "description": "Sebuah kolektif untuk para talenta kreatif, mulai dari seniman, musisi, hingga desainer game. Talenta dari Atelier Nova dikenal karena inovasi dan kemampuan mereka untuk berpikir cepat, seringkali menghasilkan momen-momen tak terduga.",
+    "benefits": [
+      "Meningkatkan stat SPD dasar secara permanen.",
+      "Peluang Crit Rate dasar sedikit meningkat."
+    ],
+    "drawbacks": [
+      "-10% Pengurangan stat HP dasar secara permanen."
+    ]
+  },
+  {
+    "id": "projectabyssal",
+    "name": "Project Abyssal",
+    "emoji": "👻",
+    "description": "Agensi yang menaungi entitas dari dunia lain, hantu, dan makhluk supernatural. Konten mereka seringkali berbau horor dan misteri, menarik penonton yang menyukai ketegangan dan kutukan.",
+    "benefits": [
+      "Semua efek status negatif (debuff) yang kamu berikan bertahan 1 giliran lebih lama.",
+      "Mendapatkan bonus Lifesteal dasar yang kecil pada semua serangan."
+    ],
+    "drawbacks": [
+      "Efektivitas penyembuhan (healing) dan Buff dari semua sumber sedikit berkurang sebanyak 10%."
+    ]
+  },
+  {
+    "id": "react_entertainment",
+    "name": "Re:AcT Entertainment",
+    "emoji": "🎭",
+    "description": "Sebuah agensi yang berfokus pada hiburan murni, komedi, dan konten yang sangat reaktif. Talenta mereka adalah para entertainer sejati yang tidak takut mengambil risiko untuk menciptakan momen yang tak terlupakan.",
+    "benefits": [
+      "Meningkatkan stat Crit Damage dasar secara permanen.",
+      "Mendapatkan lebih banyak Subscribers dari stream tipe `Free Talk`."
+    ],
+    "drawbacks": [
+      "-15% Pengurangan stat DEF dasar secara permanen."
+    ]
+  }
+]

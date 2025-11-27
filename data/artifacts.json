@@ -1,0 +1,392 @@
+[
+    {
+        "id": 101,
+        "name": "Relic of Moon’s Lullaby",
+        "type": "artifact",
+        "description": "Relik yang beresonansi dengan ketenangan bulan, memperkuat semua mantra penyembuhan dan memberikan regenerasi vitalitas yang menenangkan.",
+        "rarity": "Epic",
+        "stat_boost": {
+            "hp": 150,
+            "def": 35
+        }
+    },
+    {
+        "id": 102,
+        "name": "Relic of the Fading Sun",
+        "type": "artifact",
+        "description": "Menangkap cahaya terakhir matahari terbenam, mengubahnya menjadi kekuatan serangan kritikal yang meledak-ledak.",
+        "rarity": "Rare",
+        "stat_boost": {
+            "atk": 25,
+            "crit_rate": 0.08,
+            "crit_damage": 0.15
+        }
+    },
+    {
+        "id": 103,
+        "name": "Relic of Endless Winds",
+        "type": "artifact",
+        "description": "Artefak ringan yang ditiup angin abadi, memberikan kecepatan tak tertandingi untuk mengontrol alur pertempuran.",
+        "rarity": "Rare",
+        "stat_boost": {
+            "spd": 25,
+            "def": -10
+        }
+    },
+    {
+        "id": 104,
+        "name": "Relic of the Silent Sea",
+        "type": "artifact",
+        "description": "Permata dari dasar laut terdalam, memberikan ketahanan dan vitalitas yang luar biasa untuk menahan badai apa pun.",
+        "rarity": "Epic",
+        "stat_boost": {
+            "hp": 180,
+            "def": 25
+        }
+    },
+    {
+        "id": 105,
+        "name": "Relic of Eternal Flame",
+        "type": "artifact",
+        "description": "Api abadi yang terperangkap di dalamnya memastikan setiap serangan meninggalkan luka bakar yang menyakitkan.",
+        "rarity": "Rare",
+        "stat_boost": {
+            "atk": 30,
+            "hp": -40
+        }
+    },
+    {
+        "id": 106,
+        "name": "Relic of Twilight Sky",
+        "type": "artifact",
+        "description": "Menyimpan cahaya senja yang menenangkan, secara signifikan meningkatkan kekuatan semua kemampuan penyembuhan.",
+        "rarity": "Rare",
+        "stat_boost": {
+            "hp": 70,
+            "def": 20
+        }
+    },
+    {
+        "id": 107,
+        "name": "Crystal of Soul’s Guard",
+        "type": "artifact",
+        "description": "Kristal yang memurnikan jiwa, memberikan pertahanan spiritual dan fisik yang kokoh terhadap segala macam serangan dan efek negatif.",
+        "rarity": "Epic",
+        "stat_boost": {
+            "def": 45,
+            "hp": 60
+        }
+    },
+    {
+        "id": 108,
+        "name": "Crystal of Warrior’s Blood",
+        "type": "artifact",
+        "description": "Kristal yang terbentuk dari darah para pejuang legendaris. Meningkatkan kekuatan serangan dan kemampuan untuk menyerap esensi kehidupan dari musuh.",
+        "rarity": "Epic",
+        "stat_boost": {
+            "atk": 45,
+            "crit_rate": 0.05,
+            "hp": -60
+        }
+    },
+    {
+        "id": 109,
+        "name": "Crystal of Star’s Breath",
+        "type": "artifact",
+        "description": "Napas bintang yang membeku menjadi kristal, memberikan secercah harapan penyembuhan dan peluang menahan efek buruk.",
+        "rarity": "Rare",
+        "stat_boost": {
+            "hp": 80,
+            "def": 15
+        }
+    },
+    {
+        "id": 110,
+        "name": "Crystal of Shadowed Night",
+        "type": "artifact",
+        "description": "Fragmen dari malam tanpa bintang, memungkinkan serangan untuk menembus pertahanan lawan dan bergerak lebih cepat dari bayangan.",
+        "rarity": "Rare",
+        "stat_boost": {
+            "spd": 18,
+            "crit_rate": 0.05,
+            "atk": 10
+        }
+    },
+    {
+        "id": 111,
+        "name": "Crystal of Dawn’s Dew",
+        "type": "artifact",
+        "description": "Embun pagi pertama yang mengkristal, terus-menerus memulihkan vitalitas pemakainya.",
+        "rarity": "Epic",
+        "stat_boost": {
+            "hp": 160
+        }
+    },
+    {
+        "id": 112,
+        "name": "Crystal of Volcanic Wrath",
+        "type": "artifact",
+        "description": "Kemarahan gunung berapi yang terperangkap dalam kristal, memberikan ledakan kekuatan serangan dan membakar musuh.",
+        "rarity": "Epic",
+        "stat_boost": {
+            "atk": 40,
+            "crit_damage": 0.20,
+            "def": -20
+        }
+    },
+    {
+        "id": 113,
+        "name": "Core of the Void",
+        "type": "artifact",
+        "description": "Inti dari kehampaan, mampu membungkam sihir lawan dan bergerak dengan kecepatan yang tak terduga.",
+        "rarity": "Rare",
+        "stat_boost": {
+            "spd": 22
+        }
+    },
+    {
+        "id": 114,
+        "name": "Core of Vital Essence",
+        "type": "artifact",
+        "description": "Pusat energi kehidupan murni. Artefak ini adalah sumber penyembuhan dan regenerasi yang kuat.",
+        "rarity": "Epic",
+        "stat_boost": {
+            "hp": 200
+        }
+    },
+    {
+        "id": 115,
+        "name": "Core of Eternal Storm",
+        "type": "artifact",
+        "description": "Jantung badai abadi, memberikan kekuatan serangan yang menembus baja dan zirah.",
+        "rarity": "Legendary",
+        "stat_boost": {
+            "atk": 60,
+            "spd": 15,
+            "crit_damage": 0.25
+        }
+    },
+    {
+        "id": 116,
+        "name": "Core of Iron Will",
+        "type": "artifact",
+        "description": "Tekad sekeras baja yang menjadi inti artefak ini. Memberikan pertahanan dan vitalitas yang sangat besar.",
+        "rarity": "Rare",
+        "stat_boost": {
+            "hp": 90,
+            "def": 30,
+            "spd": -8
+        }
+    },
+    {
+        "id": 117,
+        "name": "Core of Harmony",
+        "type": "artifact",
+        "description": "Inti keseimbangan, memberikan ketahanan luar biasa terhadap efek negatif sambil memperkuat penyembuhan yang diterima.",
+        "rarity": "Epic",
+        "stat_boost": {
+            "hp": 80,
+            "def": 30
+        }
+    },
+    {
+        "id": 118,
+        "name": "Core of Chaos",
+        "type": "artifact",
+        "description": "Energi kekacauan murni yang meningkatkan kekuatan serangan dan potensi kerusakan kritikal secara brutal.",
+        "rarity": "Rare",
+        "stat_boost": {
+            "atk": 20,
+            "crit_damage": 0.25,
+            "def": -12
+        }
+    },
+    {
+        "id": 119,
+        "name": "Totem of the Dusk Wolf",
+        "type": "artifact",
+        "description": "Totem yang memanggil roh serigala senja, mempertajam insting untuk menemukan titik lemah musuh.",
+        "rarity": "Epic",
+        "stat_boost": {
+            "atk": 30,
+            "crit_rate": 0.10,
+            "spd": 10
+        }
+    },
+    {
+        "id": 120,
+        "name": "Totem of the Sky Dragon",
+        "type": "artifact",
+        "description": "Totem yang diselimuti aura naga langit, memberikan kekuatan serangan kritikal yang menghancurkan.",
+        "rarity": "Legendary",
+        "stat_boost": {
+            "atk": 40,
+            "crit_damage": 0.60,
+            "hp": -100
+        }
+    },
+    {
+        "id": 121,
+        "name": "Totem of the Firebird",
+        "type": "artifact",
+        "description": "Roh burung api legendaris mendiami totem ini, membakar musuh dengan api yang tak terpadamkan.",
+        "rarity": "Rare",
+        "stat_boost": {
+            "atk": 25,
+            "crit_damage": 0.15
+        }
+    },
+    {
+        "id": 122,
+        "name": "Totem of the Forest Keeper",
+        "type": "artifact",
+        "description": "Totem penjaga hutan purba, memberikan daya tahan dan kekuatan hidup dari pohon-pohon kuno.",
+        "rarity": "Rare",
+        "stat_boost": {
+            "hp": 85,
+            "def": 22
+        }
+    },
+    {
+        "id": 123,
+        "name": "Totem of Eternal Tides",
+        "type": "artifact",
+        "description": "Totem yang mengalirkan energi pasang surut abadi, memberikan pemulihan kesehatan berkelanjutan.",
+        "rarity": "Rare",
+        "stat_boost": {
+            "hp": 120
+        }
+    },
+    {
+        "id": 124,
+        "name": "Totem of Dark Chains",
+        "type": "artifact",
+        "description": "Totem yang memanifestasikan rantai bayangan untuk mengikat dan melumpuhkan pergerakan lawan.",
+        "rarity": "Epic",
+        "stat_boost": {
+            "spd": 18,
+            "def": 20,
+            "hp": 40
+        }
+    },
+    {
+        "id": 125,
+        "name": "Sigil of the Blind Eye",
+        "type": "artifact",
+        "description": "Simbol kuno yang mengganggu indra lawan, membuatnya sulit untuk fokus dan menggunakan kemampuan sihir.",
+        "rarity": "Epic",
+        "stat_boost": {
+            "spd": 22,
+            "def": 18
+        }
+    },
+    {
+        "id": 126,
+        "name": "Sigil of Twin Blades",
+        "type": "artifact",
+        "description": "Segel yang mempertajam serangan menjadi dua bayangan, menghasilkan kerusakan kritikal yang sangat tinggi.",
+        "rarity": "Epic",
+        "stat_boost": {
+            "crit_damage": 0.50,
+            "atk": 20,
+            "def": -18
+        }
+    },
+    {
+        "id": 127,
+        "name": "Sigil of Shadow Claws",
+        "type": "artifact",
+        "description": "Memberikan pemakainya cakar bayangan yang mampu merobek zirah dan pertahanan terkuat sekalipun.",
+        "rarity": "Epic",
+        "stat_boost": {
+            "atk": 25,
+            "crit_rate": 0.08,
+            "crit_damage": 0.20
+        }
+    },
+    {
+        "id": 128,
+        "name": "Sigil of the Crowned Light",
+        "type": "artifact",
+        "description": "Simbol cahaya suci, secara drastis mengamplifikasi semua efek penyembuhan yang diberikan maupun diterima.",
+        "rarity": "Legendary",
+        "stat_boost": {
+            "hp": 250,
+            "def": 50
+        }
+    },
+    {
+        "id": 129,
+        "name": "Sigil of the Bound Soul",
+        "type": "artifact",
+        "description": "Jiwa pemakainya terikat pada segel ini, memberikan ketahanan yang luar biasa terhadap semua efek yang melemahkan.",
+        "rarity": "Legendary",
+        "stat_boost": {
+            "hp": 180,
+            "def": 70
+        }
+    },
+    {
+        "id": 130,
+        "name": "Sigil of Starborn Fate",
+        "type": "artifact",
+        "description": "Segel yang ditakdirkan oleh bintang, memberikan keseimbangan sempurna antara kecepatan dan serangan presisi.",
+        "rarity": "Legendary",
+        "stat_boost": {
+            "spd": 25,
+            "atk": 30,
+            "crit_rate": 0.12
+        }
+    },
+    {
+        "id": 131,
+        "name": "Scrap of Rusted Courage",
+        "type": "artifact",
+        "description": "Potongan logam berkarat yang konon berasal dari baju perang seorang prajurit tua. Memberikan sedikit keberanian pada pemakainya.",
+        "rarity": "Common",
+        "stat_boost": {
+            "atk": 6
+        }
+    },
+    {
+        "id": 132,
+        "name": "Scrap of Faded Cloth",
+        "type": "artifact",
+        "description": "Kain lusuh yang dulunya bagian dari jubah penyihir. Meski kekuatannya memudar, masih memberi sedikit perlindungan.",
+        "rarity": "Common",
+        "stat_boost": {
+            "def": 9
+        }
+    },
+    {
+        "id": 133,
+        "name": "Scrap of Old Boots",
+        "type": "artifact",
+        "description": "Potongan sepatu tua yang ringan, memberikan sedikit peningkatan kecepatan bagi pengelana pemula.",
+        "rarity": "Common",
+        "stat_boost": {
+            "spd": 5
+        }
+    },
+    {
+        "id": 134,
+        "name": "Scrap of Cracked Gem",
+        "type": "artifact",
+        "description": "Potongan permata retak yang masih memancarkan energi samar. Menambah sedikit vitalitas.",
+        "rarity": "Common",
+        "stat_boost": {
+            "hp": 20
+        }
+    },
+    {
+        "id": 135,
+        "name": "Scrap of Dull Edge",
+        "type": "artifact",
+        "description": "Sisi tumpul dari pedang lama. Meski tidak lagi tajam, energinya dapat meningkatkan peluang serangan kritis sedikit.",
+        "rarity": "Common",
+        "stat_boost": {
+            "crit_rate": 0.02,
+            "atk": 6
+        }
+    }
+]

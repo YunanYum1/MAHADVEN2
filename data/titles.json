@@ -1,0 +1,1202 @@
+[
+    {
+        "id": 1,
+        "name": "The Dusk Aegis",
+        "rarity": "Legendary",
+        "image_file": "andi.png",
+        "description": "Seorang penjaga abadi kepulauan yang berdiri di antara senja dan fajar. Kekuatannya berasal dari pasang surut lautan dan cahaya bintang pertama, menjadikannya benteng tak tertembus yang melindungi tanah kelahirannya.",
+        "stat_boost": { "hp": 120, "atk": 20, "def": 75, "spd": 10 },
+        "skills": [
+            {
+                "name": "Tidal Bulwark",
+                "type": "active",
+                "description": "Memanggil kekuatan laut untuk menciptakan perisai raksasa yang menyerap damage dan memberikan efek Counter-Attack. Selama perisai aktif, pertahanan meningkat drastis.",
+                "cooldown": 5,
+                "damage_or_effect": "Memberikan Shield (50% Max HP) dan Counter-Attack selama 2 giliran. Juga memberikan Defense Up (30%)."
+            },
+            {
+                "name": "Duskfall Strike",
+                "type": "active",
+                "description": "Menyerang dengan energi senja, memberikan damage besar dan mengaburkan pandangan musuh, mengurangi akurasi dan kecepatan mereka secara signifikan.",
+                "cooldown": 4,
+                "damage_or_effect": "Menghasilkan 150% Damage. Memberikan debuff Blind (35% miss chance) dan Speed Down (25%) selama 2 giliran."
+            },
+            {
+                "name": "Archipelagos Blessing",
+                "type": "passive",
+                "description": "Setiap kali HP turun di bawah 50%, langsung memulihkan 20% Max HP dan membersihkan semua debuff. Efek ini hanya aktif sekali per pertarungan.",
+                "damage_or_effect": "Saat HP < 50% (sekali), pulihkan 20% Max HP dan hapus semua debuff."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "The Shadow Diva",
+        "rarity": "Legendary",
+        "image_file": "alia.png",
+        "description": "Seorang penyanyi yang suaranya adalah gema dari tragedi. Setiap nada yang ia nyanyikan menenun bayangan menjadi senjata, mengubah kesedihan menjadi kutukan mematikan bagi siapa pun yang mendengarnya.",
+        "stat_boost": { "hp": 50, "atk": 60, "def": 20, "spd": 55, "crit_rate": 0.10 },
+        "skills": [
+            {
+                "name": "Sorrowful Aria",
+                "type": "active",
+                "description": "Menyanyikan lagu pedih yang menyayat hati, memberikan debuff Attack Down dan Defense Down pada musuh, serta memiliki kemungkinan untuk memberikan efek Silence.",
+                "cooldown": 4,
+                "damage_or_effect": "Memberikan Attack Down (30%) & Defense Down (30%) selama 3 giliran. 40% kemungkinan memberikan Silence 1 giliran."
+            },
+            {
+                "name": "Phantom Crescendo",
+                "type": "active",
+                "description": "Serangan menusuk yang mencapai puncak melodi, memberikan damage yang menembus sebagian pertahanan musuh dan menyerap sebagian damage sebagai HP.",
+                "cooldown": 3,
+                "damage_or_effect": "Menghasilkan 160% Damage (mengabaikan 30% DEF). Menyerap 25% dari damage yang diberikan sebagai HP."
+            },
+            {
+                "name": "Encore of Shadows",
+                "type": "passive",
+                "description": "Saat dikalahkan, melepaskan gelombang energi bayangan terakhir, memberikan damage setara 25% dari Max HP miliknya kepada penyerang.",
+                "damage_or_effect": "Saat mati, memberikan damage setara 25% Max HP pada penyerang."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Solar Maestro",
+        "rarity": "Legendary",
+        "image_file": "nanarika.png",
+        "description": "Maestro yang memadukan panasnya matahari dengan harmoni alam semesta. Ia adalah konduktor dari dua kekuatan, menciptakan simfoni cahaya yang menyembuhkan dan simfoni api yang menghancurkan.",
+        "stat_boost": { "hp": 80, "atk": 45, "def": 40, "spd": 40 },
+        "skills": [
+            {
+                "name": "Solar Overture",
+                "type": "active",
+                "description": "Memulai lagu dengan nada penyembuhan, memberikan Regeneration dan Attack Up pada diri sendiri, mempersiapkan crescendo yang mematikan.",
+                "cooldown": 4,
+                "damage_or_effect": "Memberikan Regeneration (15% Max HP/turn) dan Attack Up (30%) selama 3 giliran."
+            },
+            {
+                "name": "Blazing Finale",
+                "type": "active",
+                "description": "Menutup simfoni dengan ledakan api surya. Damage akan meningkat drastis jika sedang dalam pengaruh buff.",
+                "cooldown": 3,
+                "damage_or_effect": "Menghasilkan 140% Damage. Damage meningkat 50% jika memiliki buff."
+            },
+            {
+                "name": "Harmonious Resonance",
+                "type": "passive",
+                "description": "Setiap kali menggunakan skill non-damage, cooldown dari skill damage berikutnya akan berkurang 1 giliran. Setiap kali menggunakan skill damage, skill non-damage berikutnya akan memberikan buff tambahan.",
+                "damage_or_effect": "Menggunakan skill non-damage mengurangi cooldown skill damage. Menggunakan skill damage memperkuat skill non-damage berikutnya."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "The Crimson Flare",
+        "rarity": "Legendary",
+        "image_file": "nia.png",
+        "description": "Jiwa yang terbakar oleh api abadi. Baginya, pertarungan adalah bahan bakar, mengubah setiap luka yang diterima menjadi amarah yang lebih besar dan api yang lebih panas, hingga ia menjadi neraka itu sendiri.",
+        "stat_boost": { "hp": 90, "atk": 55, "def": 35, "crit_damage": 0.25 },
+        "skills": [
+            {
+                "name": "Inferno Brand",
+                "type": "active",
+                "description": "Memberikan tanda api pada musuh, memberikan damage dan efek Burn yang sangat kuat. Musuh yang ditandai akan menerima damage lebih besar dari serangan berikutnya.",
+                "cooldown": 4,
+                "damage_or_effect": "Menghasilkan 120% Damage dan Burn (10% Max HP/turn) selama 2 giliran. Target menerima 25% damage lebih besar."
+            },
+            {
+                "name": "Soul Combustion",
+                "type": "active",
+                "description": "Meledakkan energi jiwa, memberikan damage besar ke musuh. Semakin rendah HP saat ini, semakin besar damage yang dihasilkan.",
+                "cooldown": 3,
+                "damage_or_effect": "Menghasilkan 100% Damage, meningkat hingga 250% seiring berkurangnya HP."
+            },
+            {
+                "name": "Raging Phoenix",
+                "type": "passive",
+                "description": "Saat menerima damage fatal, tidak akan mati, melainkan bertahan dengan 1 HP dan mendapatkan Invincibility selama 1 giliran. Hanya aktif sekali per pertarungan.",
+                "damage_or_effect": "Saat menerima damage fatal (sekali), bertahan dengan 1 HP dan mendapatkan Invincibility selama 1 giliran."
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Ancestral Monk",
+        "rarity": "Legendary",
+        "image_file": "zen.png",
+        "description": "Seorang biksu yang bertarung bersama arwah para leluhurnya. Setiap pukulan dan tendangannya mengandung gema dari kebijaksanaan dan kekuatan generasi yang telah lalu, membuatnya mampu melihat kelemahan lawan.",
+        "stat_boost": { "hp": 70, "atk": 40, "def": 50, "spd": 50 },
+        "skills": [
+            {
+                "name": "Hundred Spirits Palm",
+                "type": "active",
+                "description": "Serangan telapak tangan beruntun yang didukung oleh arwah leluhur, menyerang 2 kali dan setiap pukulan memiliki kemungkinan untuk memberikan debuff acak.",
+                "cooldown": 4,
+                "damage_or_effect": "Menyerang 2x (masing-masing 100% Damage). Setiap serangan punya 50% kemungkinan memberikan debuff acak."
+            },
+            {
+                "name": "Flowing Mantra",
+                "type": "active",
+                "description": "Memasuki meditasi singkat, membersihkan semua debuff dari diri sendiri dan mendapatkan Evasion Up, meningkatkan kemungkinan untuk menghindari serangan.",
+                "cooldown": 4,
+                "damage_or_effect": "Menghapus semua debuff. Mendapatkan Evasion Up (35%) dan ATK Up (15%) selama 2 giliran."
+            },
+            {
+                "name": "Ancestors Sight",
+                "type": "passive",
+                "description": "Di awal pertarungan, secara permanen mengurangi Critical Rate dan Critical Damage musuh sebesar 15%.",
+                "damage_or_effect": "Di awal pertarungan, mengurangi Crit Rate & Crit Damage musuh sebesar 15%."
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Eternal Snowfall",
+        "rarity": "Legendary",
+        "image_file": "yumi.png",
+        "description": "Perwujudan dari keheningan salju terakhir di musim dingin. Gerakannya selembut kepingan salju namun dinginnya menusuk tulang, mampu membekukan lawan dalam mimpi abadi.",
+        "stat_boost": { "hp": 75, "atk": 50, "def": 30, "spd": 45 },
+        "skills": [
+            {
+                "name": "Absolute Zero",
+                "type": "active",
+                "description": "Membekukan area sekitar, memberikan damage dan memiliki kemungkinan tinggi untuk memberikan efek Freeze, yang merupakan Stun yang tidak bisa di-resist.",
+                "cooldown": 6,
+                "damage_or_effect": "Menghasilkan 130% Damage. 50% kemungkinan memberikan Freeze (Stun tak terhindarkan) selama 1 giliran."
+            },
+            {
+                "name": "Snowflake Dance",
+                "type": "active",
+                "description": "Serangan anggun yang menyerang musuh dua kali. Jika musuh sedang terkena debuff Speed Down, serangan ini akan memberikan damage kritikal.",
+                "cooldown": 3,
+                "damage_or_effect": "Menyerang 2x (masing-masing 70% Damage). Dijamin Kritikal jika musuh terkena Speed Down."
+            },
+            {
+                "name": "Winters Embrace",
+                "type": "passive",
+                "description": "Setiap kali menyerang, memiliki 25% kemungkinan untuk memberikan debuff Speed Down (15%) pada musuh selama 2 giliran.",
+                "damage_or_effect": "Setiap serangan, 25% kemungkinan memberikan Speed Down (15%) selama 2 giliran."
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Reality Architect",
+        "rarity": "Legendary",
+        "image_file": "kevin.png",
+        "description": "Seorang visioner yang melihat dunia sebagai instrumen raksasa. Ia tidak bertarung, melainkan mengatur ulang realitas, menciptakan harmoni yang memperkuat sekutu dan disonansi yang menghancurkan lawan.",
+        "stat_boost": { "hp": 100, "def": 60, "spd": 45 },
+        "skills": [
+            {
+                "name": "Realitys Blueprint",
+                "type": "active",
+                "description": "Mengatur ulang statistik dasar, menukar persentase ATK dan DEF antara diri sendiri dan musuh selama 2 giliran. ",
+                "cooldown": 6,
+                "damage_or_effect": "Menukar persentase ATK dan DEF dengan musuh selama 2 giliran."
+            },
+            {
+                "name": "Harmonic Convergence",
+                "type": "active",
+                "description": "Menyeimbangkan kekuatan, menyamakan persentase HP saat ini antara diri sendiri dengan musuh, lalu memulihkan 10% Max HP.",
+                "cooldown": 5,
+                "damage_or_effect": "Menyamakan persentase HP dengan musuh, lalu memulihkan 10% Max HP."
+            },
+            {
+                "name": "Perfect Symmetry",
+                "type": "passive",
+                "description": "Di akhir setiap gilirannya, membersihkan satu debuff dari diri sendiri dan satu buff dari musuh.",
+                "damage_or_effect": "Setiap akhir giliran, hapus 1 debuff dari diri sendiri dan 1 buff dari musuh."
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Amethyst Witch",
+        "rarity": "Legendary",
+        "image_file": "rena.png",
+        "description": "Penyihir yang sihirnya adalah api kecubung yang langka. Api ini tidak hanya membakar, tetapi juga mengkristalkan mana lawan, mengunci kemampuan mereka dan mengubah kekuatan mereka menjadi kelemahan.",
+        "stat_boost": { "hp": 60, "atk": 65, "def": 25, "spd": 40 },
+        "skills": [
+            {
+                "name": "Crystallize Mana",
+                "type": "active",
+                "description": "Menembakkan api kecubung, memberikan damage dan meningkatkan cooldown semua skill musuh sebanyak 2 giliran.",
+                "cooldown": 5,
+                "damage_or_effect": "Menghasilkan 140% Damage. Meningkatkan cooldown semua skill musuh sebanyak 2 giliran."
+            },
+            {
+                "name": "Amethyst Purge",
+                "type": "active",
+                "description": "Melepaskan gelombang api pemurni, memberikan damage dan menghapus semua buff dari musuh. Damage meningkat untuk setiap buff yang dihapus.",
+                "cooldown": 4,
+                "damage_or_effect": "Menghasilkan 100% Damage dan menghapus semua buff musuh. Damage +20% per buff yang dihapus."
+            },
+            {
+                "name": "Spellthiefs Gleam",
+                "type": "passive",
+                "description": "Setiap kali musuh menggunakan skill, memiliki 20% kemungkinan untuk mencuri buff yang dihasilkan skill tersebut (jika ada) selama 2 giliran.",
+                "damage_or_effect": "Saat musuh menggunakan skill, 20% kemungkinan untuk mencuri buff yang dihasilkan."
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Illusion Princess",
+        "rarity": "Legendary",
+        "image_file": "mero.png",
+        "description": "Putri dari lautan yang hanya ada dalam mimpi. Ia mengendalikan arus fantasi, memanggil makhluk imajiner untuk bertarung dan menenggelamkan musuh dalam ilusi yang tak berujung.",
+        "stat_boost": { "hp": 85, "atk": 40, "def": 40, "spd": 45 },
+        "skills": [
+            {
+                "name": "Summon: Leviathans Mirage",
+                "type": "active",
+                "description": "Memanggil bayangan Leviathan yang menyerang musuh dengan dahsyat, memberikan damage area dan mengurangi pertahanan mereka.",
+                "cooldown": 5,
+                "damage_or_effect": "Menghasilkan 160% Damage dan memberikan Defense Down (30%) selama 3 giliran."
+            },
+            {
+                "name": "Dreamtide",
+                "type": "active",
+                "description": "Menenggelamkan musuh dalam arus mimpi, membuat mereka tertidur (Stun) selama 1 giliran dan memberikan efek Heal Block.",
+                "cooldown": 4,
+                "damage_or_effect": "Memberikan Stun selama 1 giliran dan Heal Block selama 2 giliran."
+            },
+            {
+                "name": "Ocean's Lullaby",
+                "type": "passive",
+                "description": "Di awal setiap gilirannya, memiliki 25% kemungkinan untuk menghapus satu debuff dari diri sendiri.",
+                "damage_or_effect": "Di awal giliran, 25% kemungkinan menghapus satu debuff."
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Winged Bard",
+        "rarity": "Legendary",
+        "image_file": "hera.png",
+        "description": "Seorang penyair yang kata-katanya mampu memanggil makhluk bersayap dari mitos. Setiap bait puisinya adalah mantra, dan setiap rima adalah perintah yang membawa misteri dari langit ke medan perang.",
+        "stat_boost": { "hp": 65, "atk": 50, "spd": 60, "crit_rate": 0.15 },
+        "skills": [
+            {
+                "name": "Verse of the Griffin",
+                "type": "active",
+                "description": "Mendeklamasikan bait tentang Griffin, memberikan serangan menukik yang mengabaikan 50% pertahanan musuh.",
+                "cooldown": 4,
+                "damage_or_effect": "Menghasilkan 150% Damage (mengabaikan 50% DEF)."
+            },
+            {
+                "name": "Rhyme of the Roc",
+                "type": "active",
+                "description": "Membisikkan rima tentang Roc, mendapatkan buff Attack Up dan Critical Rate Up untuk mempersiapkan serangan berikutnya.",
+                "cooldown": 4,
+                "damage_or_effect": "Mendapatkan Attack Up (30%) dan Critical Rate Up (50%) selama 2 giliran."
+            },
+            {
+                "name": "Feathered Sonnet",
+                "type": "passive",
+                "description": "Setelah menggunakan skill, kecepatan meningkat secara permanen sebesar 5%. Efek ini bisa menumpuk hingga 5 kali.",
+                "damage_or_effect": "Setelah menggunakan skill, mendapatkan Speed Up (5%) permanen (menumpuk hingga 5x)."
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "The Silk Puppeteer",
+        "rarity": "Legendary",
+        "image_file": "daisy.png",
+        "description": "Dalang yang benangnya terbuat dari sutra tak terlihat. Medan perang adalah panggungnya, dan semua orang, kawan maupun lawan, adalah boneka dalam pertunjukan tragis yang ia kendalikan.",
+        "stat_boost": { "hp": 70, "atk": 20, "def": 50, "spd": 65 },
+        "skills": [
+            {
+                "name": "Puppets Vow",
+                "type": "active",
+                "description": "Mengikat musuh dengan benang sutra, memaksa mereka untuk menyerang diri sendiri dengan 75% dari ATK mereka.",
+                "cooldown": 5,
+                "damage_or_effect": "Memaksa musuh menyerang diri sendiri (75% ATK)."
+            },
+            {
+                "name": "Strings of Fate",
+                "type": "active",
+                "description": "Menghubungkan takdir, menciptakan ikatan antara diri sendiri dan musuh. 30% dari semua damage yang diterima akan dialihkan ke musuh yang terikat.",
+                "cooldown": 6,
+                "damage_or_effect": "Memberikan ikatan 'Damage Link' selama 3 giliran (30% damage dialihkan)."
+            },
+            {
+                "name": "Master of Puppets",
+                "type": "passive",
+                "description": "Jika musuh terkena efek Stun, Paralyze, atau Silence, durasi efek tersebut diperpanjang 1 giliran.",
+                "damage_or_effect": "Memperpanjang durasi Stun, Paralyze, dan Silence yang diberikan sebanyak 1 giliran."
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Violet Nocturne",
+        "rarity": "Legendary",
+        "image_file": "ririsu.png",
+        "description": "Musik malam yang diiringi oleh guntur ungu. Ia adalah badai yang elegan, setiap serangannya adalah sambaran petir yang diatur dalam ritme nokturno yang mematikan dan tak terduga.",
+        "stat_boost": { "hp": 55, "atk": 70, "def": 15, "spd": 50, "crit_damage": 0.15 },
+        "skills": [
+            {
+                "name": "Thunderclap Sonata",
+                "type": "active",
+                "description": "Serangan petir dahsyat yang dijamin kritikal. Namun, pengguna akan menerima recoil damage sebesar 15% dari damage yang diberikan.",
+                "cooldown": 4,
+                "damage_or_effect": "Menghasilkan serangan yang dijamin Kritikal. Menerima 15% recoil damage."
+            },
+            {
+                "name": "Lightning Etude",
+                "type": "active",
+                "description": "Memberikan serangan beruntun sebanyak 3 kali, dengan setiap serangan memiliki kemungkinan untuk memberikan Paralyze.",
+                "cooldown": 4,
+                "damage_or_effect": "Menyerang 3x (masing-masing 50%). Setiap serangan punya 20% kemungkinan Paralyze 1 giliran."
+            },
+            {
+                "name": "Static Resonance",
+                "type": "passive",
+                "description": "Setiap kali berhasil mendaratkan serangan kritikal, mendapatkan buff Speed Up sebesar 15% selama 2 giliran.",
+                "damage_or_effect": "Saat mendaratkan Critical Hit, mendapatkan Speed Up (15%) selama 2 giliran."
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Winterborn Ballad",
+        "rarity": "Legendary",
+        "image_file": "fuyumi.png",
+        "description": "Kisah seorang pejuang yang lahir dari jantung musim dingin. Baladanya bukan untuk dinyanyikan, melainkan untuk dirasakan—sebuah aura dingin yang memperlambat musuh dan memperkuat dirinya seiring berjalannya waktu.",
+        "stat_boost": { "hp": 110, "atk": 30, "def": 60, "spd": 20 },
+        "skills": [
+            {
+                "name": "Glacial Prison",
+                "type": "active",
+                "description": "Menciptakan penjara es di sekitar musuh, memberikan damage dan menjamin serangan berikutnya akan memberikan Stun.",
+                "cooldown": 5,
+                "damage_or_effect": "Menghasilkan 120% Damage. Serangan berikutnya dijamin memberikan Stun."
+            },
+            {
+                "name": "Winters Heart",
+                "type": "active",
+                "description": "Memulihkan HP diri sendiri dan mendapatkan perisai es. Jumlah pemulihan dan kekuatan perisai meningkat berdasarkan berapa lama pertarungan telah berlangsung.",
+                "cooldown": 4,
+                "damage_or_effect": "Memulihkan HP (20% + 2% per giliran) dan memberikan Shield (15% + 1% per giliran)."
+            },
+            {
+                "name": "Rimefrost Aura",
+                "type": "passive",
+                "description": "Setiap kali diserang, penyerang memiliki 30% kemungkinan untuk terkena debuff Speed Down sebesar 10% selama 2 giliran.",
+                "damage_or_effect": "Saat diserang, 30% kemungkinan memberikan Speed Down (10%) pada penyerang."
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "The Data Hacker",
+        "rarity": "Legendary",
+        "image_file": "maudy.png",
+        "description": "Master peracik informasi dari kafe siberpunk yang tersembunyi. Ia tidak menggunakan pedang, melainkan data dan rumor, menyebarkan 'debuff' sosial yang merusak moral dan sistem pertahanan lawan dari dalam.",
+        "stat_boost": { "hp": 70, "atk": 35, "def": 45, "spd": 55 },
+        "skills": [
+            {
+                "name": "Data Leak",
+                "type": "active",
+                "description": "Membocorkan data kelemahan musuh, memberikan debuff Defense Down yang sangat kuat dan menghilangkan semua buff.",
+                "cooldown": 5,
+                "damage_or_effect": "Memberikan Defense Down (50%) selama 2 giliran dan menghapus semua buff musuh."
+            },
+            {
+                "name": "System Crash",
+                "type": "active",
+                "description": "Mengirimkan virus logika yang merusak, memberikan damage yang mengabaikan pertahanan dan memberikan efek Heal Block.",
+                "cooldown": 4,
+                "damage_or_effect": "Menghasilkan 80% Damage (mengabaikan DEF). Memberikan Heal Block selama 2 giliran."
+            },
+            {
+                "name": "Firewall Protocol",
+                "type": "passive",
+                "description": "Di awal pertarungan, memberikan diri sendiri 'Immunity' yang mencegah semua debuff selama 2 giliran pertama.",
+                "damage_or_effect": "Mendapatkan 'Immunity' (kebal debuff) selama 2 giliran di awal pertarungan."
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Sakura Phantoma",
+        "rarity": "Legendary",
+        "image_file": "saku.png",
+        "description": "Seorang samurai yang serangannya seindah dan setenang kelopak sakura yang gugur. Ia tidak bersuara, hanya ada desau pedang dan keheningan lembut yang ditinggalkannya setelah menebas lawan dalam sekejap.",
+        "stat_boost": { "hp": 60, "atk": 60, "spd": 65, "crit_rate": 0.10, "crit_damage": 0.15 },
+        "skills": [
+            {
+                "name": "Sakura Flash",
+                "type": "active",
+                "description": "Sebuah tebasan Iaijutsu secepat kilat. Serangan ini dijamin mendarat dan memiliki peningkatan Critical Damage yang tinggi.",
+                "cooldown": 4,
+                "damage_or_effect": "Menghasilkan serangan yang tidak bisa dihindari (150% Damage) dengan +50% Critical Damage."
+            },
+            {
+                "name": "Falling Blossom",
+                "type": "active",
+                "description": "Menghilang dalam pusaran kelopak bunga, menjadi tidak dapat ditargetkan selama 1 giliran dan kemudian melancarkan serangan.",
+                "cooldown": 6,
+                "damage_or_effect": "Menjadi tidak dapat ditargetkan selama 1 giliran, lalu menyerang dengan 100% Damage."
+            },
+            {
+                "name": "Blade of Serenity",
+                "type": "passive",
+                "description": "Jika tidak menerima damage selama 1 giliran penuh, serangan berikutnya akan memberikan efek Bleed yang mengurangi 8% Max HP musuh selama 2 giliran.",
+                "damage_or_effect": "Jika tidak menerima damage selama 1 giliran, serangan berikutnya memberikan Bleed (8% Max HP/turn)."
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "The Adamant Colossus",
+        "rarity": "Epic",
+        "image_file": "the_adamant_colossus.png",
+        "description": "seorang ksatria raksasa yang tubuhnya sekeras batu dan tekadnya tak terpatahkan. Ia menjadi pusat perhatian di medan perang, menerima setiap hantaman dan mengubahnya menjadi perisai bagi yang lain.",
+        "stat_boost": { "hp": 90, "def": 55 },
+        "skills": [
+            {
+                "name": "Sundering Quake",
+                "type": "active",
+                "description": "Menghantam tanah, memberikan 130% damage dan 30% kemungkinan memberikan Defense Down (DEF-) sebesar 20% selama 2 giliran.",
+                "cooldown": 3,
+                "damage_or_effect": "Menghasilkan 130% Damage, 30% kemungkinan Defense Down (20%) selama 2 giliran."
+            },
+            {
+                "name": "Ironclad Resolve",
+                "type": "active",
+                "description": "Memasuki mode bertahan total, memberikan efek Taunt dan Defense Up (DEF+) 60% selama 1 giliran, namun tidak dapat menyerang.",
+                "cooldown": 5,
+                "damage_or_effect": "Memberikan Taunt dan Defense Up (60%) selama 1 giliran, tetapi tidak bisa menyerang."
+            },
+            {
+                "name": "Stonewill Resilience",
+                "type": "passive",
+                "description": "Setiap kali menerima serangan, memiliki 20% kemungkinan untuk mendapatkan Shield setara 10% dari DEF miliknya selama 1 giliran.",
+                "damage_or_effect": "Saat menerima serangan, 20% kemungkinan mendapatkan Shield (10% dari DEF) selama 1 giliran."
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "name": "The Sentinel's Vow",
+        "rarity": "Epic",
+        "image_file": "the_sentinels_vow.png",
+        "description": "Seorang pelindung yang sumpahnya sekeras baja perisainya. Ia tidak akan pernah mundur, mengubah setiap serangan yang diterima menjadi kekuatan dan pembalasan, hatinya yang pantang menyerah menjadi harapan terakhir.",
+        "stat_boost": { "hp": 75, "atk": 15, "def": 45 },
+        "skills": [
+            {
+                "name": "Barricade of Thorns",
+                "type": "active",
+                "description": "Memberikan Shield setara 35% Max HP selama 2 giliran. Selama Shield aktif, memantulkan 20% damage yang diterima.",
+                "cooldown": 4,
+                "damage_or_effect": "Memberikan Shield (35% Max HP) dan Reflect (20% damage) selama 2 giliran."
+            },
+            {
+                "name": "Retribution Bash",
+                "type": "active",
+                "description": "Memberikan 80% ATK sebagai damage. Jika Shield aktif, serangan ini juga memberikan Stun selama 1 giliran.",
+                "cooldown": 3,
+                "damage_or_effect": "Menghasilkan 80% Damage. Jika Shield aktif, memberikan Stun 1 giliran."
+            },
+            {
+                "name": "Unyielding Heart",
+                "type": "passive",
+                "description": "Saat HP turun di bawah 40% pertama kali, langsung mendapatkan Regeneration (10% Max HP/turn) selama 3 giliran.",
+                "damage_or_effect": "Saat HP < 40% (sekali per pertarungan), mendapatkan Regeneration selama 3 giliran."
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Howling Gale",
+        "rarity": "Epic",
+        "image_file": "howling_gale.png",
+        "description": "Ksatria penunggang yang melesat seperti badai. Setiap serangannya adalah gema dari angin yang menderu, menjadi lebih cepat dan lebih mematikan dengan setiap serangan kritikal yang mendarat.",
+        "stat_boost": { "hp": 20, "atk": 35, "def": 5, "spd": 40, "crit_rate": 0.08 },
+        "skills": [
+            {
+                "name": "Lancers Cometfall",
+                "type": "active",
+                "description": "Serangan menusuk secepat kilat, memberikan 125% damage dan mendapatkan Critical Rate Up sebesar 30% untuk giliran berikutnya.",
+                "cooldown": 3,
+                "damage_or_effect": "Menghasilkan 125% Damage dan Crit Rate Up (30%) untuk 1 giliran."
+            },
+            {
+                "name": "Ride the Wind",
+                "type": "active",
+                "description": "Memacu tunggangannya, memberikan buff Speed Up (SPD+) 25% dan Attack Up (ATK+) 15% pada diri sendiri selama 2 giliran.",
+                "cooldown": 4,
+                "damage_or_effect": "Mendapatkan Speed Up (25%) dan Attack Up (15%) selama 2 giliran."
+            },
+            {
+                "name": "Spirit of the Pack",
+                "type": "passive",
+                "description": "Setiap kali berhasil mendaratkan serangan kritikal, kecepatan Axoolt akan meningkat secara permanen melalui buff Speed Up (SPD+) sebesar 5%.",
+                "damage_or_effect": "Saat mendaratkan Critical Hit, mendapatkan Speed Up (5%) permanen (menumpuk)."
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "name": "The Tactician",
+        "rarity": "Epic",
+        "image_file": "the_weaver_commander.png",
+        "description": "Seorang ahli taktik yang melihat medan perang sebagai papan catur. Setiap perintahnya adalah benang takdir yang ia tenun untuk menjerat lawan dalam keraguan dan membuka jalan menuju kemenangan.",
+        "stat_boost": { "hp": 25, "atk": 25, "def": 10, "spd": 35, "crit_rate": 0.05, "crit_damage": 0.05 },
+        "skills": [
+            {
+                "name": "Foresights Gambit",
+                "type": "active",
+                "description": "Memprediksi langkah lawan, memberikan debuff Blind yang mengurangi akurasi musuh sebesar 25% selama 2 giliran.",
+                "cooldown": 4,
+                "damage_or_effect": "Memberikan Blind (25% miss chance) pada musuh selama 2 giliran."
+            },
+            {
+                "name": "Orchestrated Assault",
+                "type": "active",
+                "description": "Memberikan serangkaian buff pada diri sendiri: Critical Rate Up dan Critical Damage Up sebesar 20% selama 3 giliran.",
+                "cooldown": 5,
+                "damage_or_effect": "Mendapatkan Crit Rate Up (20%) dan Crit Damage Up (20%) selama 3 giliran."
+            },
+            {
+                "name": "Master Tactician",
+                "type": "passive",
+                "description": "Di awal pertarungan, jika SPD Ster lebih tinggi dari musuh, musuh akan memulai pertarungan dengan debuff Attack Down (ATK-) sebesar 15% selama 2 giliran.",
+                "damage_or_effect": "Jika SPD lebih tinggi di awal, musuh terkena Attack Down (15%) selama 2 giliran."
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Hallowed Bulwark",
+        "rarity": "Epic",
+        "image_file": "bulwark_of_the_dawns_light.png",
+        "description": "Benteng tak tergoyahkan yang bersinar dengan cahaya fajar. Ia berdiri di garis depan, menerima setiap serangan dengan ketabahan suci dan melindungi sekutunya dengan intervensi ilahi.",
+        "stat_boost": { "hp": 80, "def": 40 },
+        "skills": [
+            {
+                "name": "Hallowed Ground",
+                "type": "active",
+                "description": "Memberkati medan perang, memberikan efek Regeneration pada diri sendiri yang memulihkan 15% Max HP selama 2 giliran.",
+                "cooldown": 4,
+                "damage_or_effect": "Memulihkan 15% Max HP setiap giliran selama 2 giliran."
+            },
+            {
+                "name": "Sacred Intervention",
+                "type": "active",
+                "description": "Melindungi diri dengan cahaya suci, mendapatkan Invincibility yang membuatnya kebal terhadap damage selama 1 giliran.",
+                "cooldown": 6,
+                "damage_or_effect": "Menjadi kebal terhadap damage selama 1 giliran."
+            },
+            {
+                "name": "Resolute Guardian",
+                "type": "passive",
+                "description": "Setiap kali Aria menerima debuff, DEF miliknya akan meningkat melalui buff Defense Up (DEF+) sebesar 10% selama 2 giliran.",
+                "damage_or_effect": "Saat menerima debuff, mendapatkan Defense Up (10%) selama 2 giliran."
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Code Phantom",
+        "rarity": "Epic",
+        "image_file": "phantom_in_the_code.png",
+        "description": "Seorang peretas hantu yang serangannya adalah baris kode berbahaya. Ia tidak menghancurkan fisik, melainkan merusak sistem lawan dari dalam, menyebabkan kerusakan logis yang beruntun dan melumpuhkan protokol pertahanan mereka.",
+        "stat_boost": { "hp": 35, "atk": 30, "def": 15, "spd": 25 },
+        "skills": [
+            {
+                "name": "Cascading Logic Bomb",
+                "type": "active",
+                "description": "Mengirimkan virus, memberikan 80% damage dan efek Burn yang mengurangi 5% Max HP musuh setiap giliran selama 3 giliran.",
+                "cooldown": 3,
+                "damage_or_effect": "Menghasilkan 80% Damage dan Burn (5% Max HP/turn) selama 3 giliran."
+            },
+            {
+                "name": "Protocol Override",
+                "type": "active",
+                "description": "Merusak sistem target, memberikan debuff Heal Block selama 2 giliran dan Speed Down (SPD-) sebesar 25% selama 2 giliran.",
+                "cooldown": 5,
+                "damage_or_effect": "Memberikan Heal Block dan Speed Down (25%) selama 2 giliran."
+            },
+            {
+                "name": "Volatile Encryption",
+                "type": "passive",
+                "description": "Saat diserang, memiliki 15% kemungkinan untuk memberikan debuff Attack Down (ATK-) sebesar 20% kepada penyerang selama 1 giliran.",
+                "damage_or_effect": "Saat menerima serangan, 15% kemungkinan memberikan Attack Down (20%) pada penyerang."
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Poison Koala",
+        "rarity": "Epic",
+        "image_file": "venomous_koala.png",
+        "description": "Makhluk yang penampilannya menipu. Di balik wajah imutnya, ia adalah ahli racun yang setiap serangannya meninggalkan spora mematikan, melumpuhkan saraf, dan memastikan penderitaan yang lambat dan menyakitkan.",
+        "stat_boost": { "hp": 45, "atk": 15, "def": 25, "spd": 20 },
+        "skills": [
+            {
+                "name": "Neurotoxin Bloom",
+                "type": "active",
+                "description": "Melepaskan spora beracun, memberikan 50% damage dan efek Poison yang mengurangi 7% Max HP setiap giliran selama 2 giliran.",
+                "cooldown": 3,
+                "damage_or_effect": "Menghasilkan 50% Damage dan Poison (7% Max HP/turn) selama 2 giliran."
+            },
+            {
+                "name": "Paralyzing Venom",
+                "type": "active",
+                "description": "Menyerang titik vital musuh, memberikan 70% damage dan memiliki 40% kemungkinan untuk memberikan efek Paralyze selama 1 giliran.",
+                "cooldown": 4,
+                "damage_or_effect": "Menghasilkan 70% Damage, 40% kemungkinan Paralyze 1 giliran."
+            },
+            {
+                "name": "Lingering Malice",
+                "type": "passive",
+                "description": "Semua efek Poison dan Bleed yang diberikan oleh Kowala akan memberikan damage 25% lebih besar.",
+                "damage_or_effect": "Meningkatkan damage semua efek Poison dan Bleed sebesar 25%."
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Rose Musketeer",
+        "rarity": "Epic",
+        "image_file": "gilded_rose_of_sunstone.png",
+        "description": "Seorang Musketeer yang serangannya seindah dan semanis permen yang mematikan. Dengan keanggunan seorang bangsawan, ia menembak dengan presisi sempurna, memastikan setiap peluru meninggalkan kesan yang tak terlupakan.",
+        "stat_boost": { "hp": 20, "atk": 40, "def": 5, "spd": 25, "crit_rate": 0.05, "crit_damage": 0.05 },
+        "skills": [
+            {
+                "name": "Caramelized Shot",
+                "type": "active",
+                "description": "Menembakkan peluru lengket, memberikan 115% damage dan memberikan debuff Speed Down (SPD-) sebesar 15% pada musuh selama 2 giliran.",
+                "cooldown": 2,
+                "damage_or_effect": "Menghasilkan 115% Damage dan Speed Down (15%) selama 2 giliran."
+            },
+            {
+                "name": "Flourish and Fire",
+                "type": "active",
+                "description": "Melakukan manuver elegan, mendapatkan Critical Rate Up 25% selama 2 giliran, lalu langsung menembak dengan 75% damage.",
+                "cooldown": 4,
+                "damage_or_effect": "Mendapatkan Crit Rate Up (25%) 2 giliran, lalu menyerang dengan 75% Damage."
+            },
+            {
+                "name": "Perfect Confection",
+                "type": "passive",
+                "description": "Setiap 4 giliran, serangan Divia berikutnya dijamin akan memberikan Critical Damage Up sebesar 50%.",
+                "damage_or_effect": "Setiap 4 giliran, serangan berikutnya mendapatkan Crit Damage +50%."
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Moon's Curse",
+        "rarity": "Epic",
+        "image_file": "curse_of_a_broken_moon.png",
+        "description": "Seorang Shaman yang kekuatannya terikat pada perjanjian darah di bawah bulan yang retak. Ia mengorbankan esensinya sendiri untuk merapal kutukan yang menggerogoti lawan dari dalam.",
+        "stat_boost": { "hp": 60, "atk": 25, "def": 20 },
+        "skills": [
+            {
+                "name": "Whispers of Decay",
+                "type": "active",
+                "description": "Mengutuk musuh dari jauh, memberikan debuff Attack Down (ATK-) dan Defense Down (DEF-) sebesar 20% selama 2 giliran.",
+                "cooldown": 4,
+                "damage_or_effect": "Memberikan Attack Down (20%) dan Defense Down (20%) selama 2 giliran."
+            },
+            {
+                "name": "Blood Price Offering",
+                "type": "active",
+                "description": "Dengan membayar harga darah, kamu merapal kutukan kuno. Sebagian esensi kehidupanmu diubah menjadi serangan yang tidak hanya melukai fisik, tetapi juga meninggalkan luka yang terus mengalirkan darah.",
+                "cooldown": 3,
+                "damage_or_effect": "Korbankan 15% HP saat ini, berikan damage setara 200% HP tersebut, dan berikan Bleed."
+            },
+            {
+                "name": "Sanguine Pact",
+                "type": "passive",
+                "description": "Setiap kali HP turun di bawah 60%, dia akan mendapatkan buff Attack Up (ATK+) sebesar 25% selama 2 giliran.",
+                "damage_or_effect": "Saat HP < 60%, mendapatkan Attack Up (25%) selama 2 giliran (hanya sekali per aktivasi)."
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Fate Gambler",
+        "rarity": "Epic",
+        "image_file": "gambler_of_the_fickle_fate.png",
+        "description": "Seorang petaruh yang menari di ujung pisau takdir. Baginya, pertarungan adalah permainan peluang, di mana setiap lemparan dadu bisa berarti kemenangan gemilang atau kekalahan telak.",
+        "stat_boost": { "hp": 25, "atk": 35, "def": 10, "spd": 15, "crit_rate": 0.08, "crit_damage": 0.08 },
+        "skills": [
+            {
+                "name": "Chaotic Roll",
+                "type": "active",
+                "description": "Melempar dadu takdir. Hasilnya bisa: Stun musuh (25%), Heal diri sendiri 20% Max HP (25%), atau memberikan 150% damage (50%).",
+                "cooldown": 3,
+                "damage_or_effect": "Efek acak: Stun (25%), Heal 20% (25%), atau Damage 150% (50%)."
+            },
+            {
+                "name": "All In",
+                "type": "active",
+                "description": "Serangan berisiko tinggi. 50% kemungkinan mendaratkan Critical Hit dengan +100% Critical Damage. Jika gagal, serangan ini akan meleset.",
+                "cooldown": 4,
+                "damage_or_effect": "50% kemungkinan Critical Hit (Crit Dmg +100%), 50% kemungkinan Meleset."
+            },
+            {
+                "name": "Whims of Fortune",
+                "type": "passive",
+                "description": "Di awal setiap gilirannya, memiliki 33% kemungkinan untuk mendapatkan efek Counter-Attack selama 1 giliran.",
+                "damage_or_effect": "33% kemungkinan mendapatkan Counter-Attack di awal giliran."
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Lotus Dancer",
+        "rarity": "Epic",
+        "image_file": "crimson_lotus_dancer.png",
+        "description": "Penari yang bilahnya mekar seperti teratai merah. Setiap serangannya adalah bagian dari tarian mematikan, meninggalkan luka yang terus mengoyak lawan bahkan setelah ia berlalu.",
+        "stat_boost": { "hp": 20, "atk": 35, "def": 5, "spd": 35 },
+        "skills": [
+            {
+                "name": "Blade of Ephemeral Grace",
+                "type": "active",
+                "description": "Menyerang dengan cepat, memberikan 135% damage dan memiliki 50% kemungkinan untuk mendapatkan Speed Up (SPD+) sebesar 20% selama 2 giliran.",
+                "cooldown": 2,
+                "damage_or_effect": "Menghasilkan 135% Damage. 50% kemungkinan Speed Up (20%) selama 2 giliran."
+            },
+            {
+                "name": "Arcane Silence",
+                "type": "active",
+                "description": "Menyerang dengan energi sihir murni, memberikan 100% damage dan memberikan efek Silence pada musuh selama 1 giliran.",
+                "cooldown": 4,
+                "damage_or_effect": "Menghasilkan 100% Damage dan memberikan Silence selama 1 giliran."
+            },
+            {
+                "name": "Dance of a Thousand Cuts",
+                "type": "passive",
+                "description": "Setiap serangan ketiga yang dilakukan akan memberikan efek Bleed yang mengurangi 6% HP musuh setiap giliran selama 2 giliran.",
+                "damage_or_effect": "Serangan ke-3 memberikan efek Bleed (6% Max HP/turn) selama 2 giliran."
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Gilded Snare",
+        "rarity": "Rare",
+        "image_file": "whisper_of_the_gilded_cage.png",
+        "description": "Seorang bangsawan petarung yang setiap gerakannya adalah jerat yang indah. Ia tidak mengalahkan musuh dengan kekuatan kasar, melainkan dengan mengunci mereka dalam sangkar emas keputusasaan, melumpuhkan kehendak mereka sebelum memberikan serangan terakhir.",
+        "stat_boost": { "hp": 35, "atk": 15, "def": 15, "spd": 30 },
+        "skills": [
+            {
+                "name": "Golden Shackle",
+                "type": "active",
+                "description": "Menyerang dengan rantai emas, memberikan 80% damage dan memiliki 40% kemungkinan untuk memberikan efek 'Silence' selama 1 giliran, mencegah musuh menggunakan skill.",
+                "cooldown": 4,
+                "damage_or_effect": "Menghasilkan 80% Damage. 40% kemungkinan memberikan efek Silence selama 1 giliran."
+            },
+            {
+                "name": "Gilded Prison",
+                "type": "active",
+                "description": "Menciptakan penjara ilusi yang menahan gerakan musuh. Memberikan 50% kemungkinan untuk memberikan efek 'Paralyze' selama 2 giliran.",
+                "cooldown": 5,
+                "damage_or_effect": "50% kemungkinan memberikan efek Paralyze selama 2 giliran."
+            },
+            {
+                "name": "Wardens Grace",
+                "type": "passive",
+                "description": "Setiap kali berhasil memberikan efek negatif (debuff) kepada musuh, SPD miliknya meningkat sebesar 15% selama 2 giliran.",
+                "damage_or_effect": "Saat berhasil memberikan debuff, mendapatkan Speed Up (15%) selama 2 giliran."
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Necro Taboo",
+        "rarity": "Rare",
+        "image_file": "the_undying_taboo.png",
+        "description": "Seorang Necromancer yang berjalan di antara hidup dan mati. Dengan tabu yang tak termaafkan, ia membangkitkan pasukan tengkorak dan menyerap jiwa musuh untuk memperpanjang eksistensinya yang terkutuk.",
+        "stat_boost": { "hp": 55, "atk": 15, "def": 30 },
+        "skills": [
+            {
+                "name": "Raise Dead",
+                "type": "active",
+                "description": "Membangkitkan 1 tengkorak untuk menyerang musuh, memberikan 40% damage dan bertahan selama 2 giliran.",
+                "cooldown": 4,
+                "damage_or_effect": "Memanggil 1 Tengkorak yang menyerang setiap giliran (40% Damage) selama 2 giliran."
+            },
+            {
+                "name": "Soul Drain",
+                "type": "active",
+                "description": "Menyerap jiwa musuh, memberikan 70% damage dan memulihkan HP sebesar 20% dari damage yang diberikan.",
+                "cooldown": 3,
+                "damage_or_effect": "Menghasilkan 70% Damage dan memulihkan HP setara 20% dari damage tersebut."
+            },
+            {
+                "name": "Grave Pact",
+                "type": "passive",
+                "description": "Ketika HP di bawah 30%, DEF miliknya meningkat sebesar 25%.",
+                "damage_or_effect": "Saat HP < 30%, meningkatkan DEF sebesar 25%."
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Moon's Wail",
+        "rarity": "Rare",
+        "image_file": "wail_of_the_mourning_moon.png",
+        "description": "Pejuang yang diselimuti kesedihan rembulan. Ratapannya menjadi senjata, melepaskan energi kutukan yang meremukkan semangat juang lawan dan membuat mereka rentan terhadap penderitaan lebih lanjut.",
+        "stat_boost": { "hp": 30, "atk": 35, "def": 5, "spd": 25 },
+        "skills": [
+            {
+                "name": "Crescent Weep",
+                "type": "active",
+                "description": "Menyerang dengan energi bulan, memberikan 80% damage dan memiliki 40% kemungkinan untuk mengurangi ATK musuh sebesar 15% selama 2 giliran.",
+                "cooldown": 2,
+                "damage_or_effect": "Menghasilkan 80% Damage, 40% kemungkinan mengurangi ATK musuh 15%."
+            },
+            {
+                "name": "Lunar Curse",
+                "type": "active",
+                "description": "Merapal kutukan yang memberikan Attack Up 15% pada diri sendiri dan memiliki 75% kemungkinan untuk mengurangi SPD musuh sebesar 20% selama 3 giliran.",
+                "cooldown": 4,
+                "damage_or_effect": "Memberikan ATK Up 15% pada diri sendiri, 75% kemungkinan mengurangi SPD musuh 20%."
+            },
+            {
+                "name": "Moons Scorn",
+                "type": "passive",
+                "description": "Serangan memberikan 10% damage tambahan kepada musuh yang terkena debuff.",
+                "damage_or_effect": "Memberikan 10% damage tambahan pada musuh yang memiliki debuff."
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "name": "World Tree Painter",
+        "rarity": "Rare",
+        "image_file": "canvas_of_the_world_tree.png",
+        "description": "Seorang penyihir yang melukis realitas dengan esensi Pohon Dunia. Setiap mantranya adalah kehidupan itu sendiri, mampu merambat, menyembuhkan, dan bertahan sekuat akar yang paling dalam.",
+        "stat_boost": { "hp": 60, "def": 30 },
+        "skills": [
+            {
+                "name": "Vine Lash",
+                "type": "active",
+                "description": "Mencambuk musuh dengan akar tanaman, memberikan 85% damage dan memiliki 20% kemungkinan membuat musuh tidak bisa bergerak (stun) selama 1 giliran.",
+                "cooldown": 3,
+                "damage_or_effect": "Menghasilkan 85% Damage, 20% kemungkinan Stun 1 giliran."
+            },
+            {
+                "name": "Natures Blessing",
+                "type": "active",
+                "description": "Memberikan regenerasi HP pada diri sendiri, memulihkan 7% HP setiap giliran selama 3 giliran.",
+                "cooldown": 5,
+                "damage_or_effect": "Memulihkan 7% Max HP setiap giliran selama 3 giliran."
+            },
+            {
+                "name": "Forests Embrace",
+                "type": "passive",
+                "description": "Di awal pertarungan, Moci mendapatkan tambahan DEF sebesar 15%.",
+                "damage_or_effect": "Meningkatkan DEF sebesar 15% di awal pertarungan."
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "name": "Shadow Smile",
+        "rarity": "Rare",
+        "image_file": "smile_from_the_shadows.png",
+        "description": "Penyihir yang menemukan kekuatan dalam ketakutan. Senyumnya adalah topeng dari kegelapan yang ia kendalikan, membisikkan kengerian yang membuat musuh ragu akan serangan mereka sendiri.",
+        "stat_boost": { "hp": 20, "atk": 40, "spd": 30 },
+        "skills": [
+            {
+                "name": "Shadow Bolt",
+                "type": "active",
+                "description": "Menembakkan proyektil bayangan yang memberikan 95% damage.",
+                "cooldown": 2,
+                "damage_or_effect": "Menghasilkan 95% Damage."
+            },
+            {
+                "name": "Whispers of Fear",
+                "type": "active",
+                "description": "Memiliki 50% kemungkinan untuk memberikan debuff 'Fear', yang membuat serangan musuh memiliki 25% kemungkinan untuk gagal selama 2 giliran.",
+                "cooldown": 4,
+                "damage_or_effect": "50% kemungkinan memberikan debuff Fear (25% miss chance) selama 2 giliran."
+            },
+            {
+                "name": "Cloak of Darkness",
+                "type": "passive",
+                "description": "Ketika HP di bawah 40%, meningkatkan kemungkinan menghindar (evasion) sebesar 10%.",
+                "damage_or_effect": "Saat HP < 40%, meningkatkan Evasion sebesar 10%."
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Twin Blades",
+        "rarity": "Rare",
+        "image_file": "fate_of_the_twin_blades.png",
+        "description": "Seorang pendekar yang menari dengan dua bilah pedang. Setiap gerakannya adalah bagian dari takdir yang terjalin, menggabungkan kecepatan dan serangan tanpa henti dalam harmoni yang mematikan.",
+        "stat_boost": { "hp": 15, "atk": 35, "def": 5, "spd": 35 },
+        "skills": [
+            {
+                "name": "Cross Slash",
+                "type": "active",
+                "description": "Menyerang dua kali dengan cepat, setiap serangan memberikan 60% damage.",
+                "cooldown": 2,
+                "damage_or_effect": "Menghasilkan 2 serangan (masing-masing 60%)."
+            },
+            {
+                "name": "Blade Dance",
+                "type": "active",
+                "description": "Meningkatkan SPD diri sendiri sebesar 20% selama 3 giliran.",
+                "cooldown": 4,
+                "damage_or_effect": "Meningkatkan SPD sebesar 20% selama 3 giliran."
+            },
+            {
+                "name": "Twins Harmony",
+                "type": "passive",
+                "description": "Setiap 4 serangan dasar, Sankta akan melancarkan satu serangan bonus yang memberikan 50% damage.",
+                "damage_or_effect": "Setelah 4 serangan dasar, melancarkan serangan bonus (50% Damage)."
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "name": "Soul Gate Warlock",
+        "rarity": "Rare",
+        "image_file": "guardian_of_the_soul_gate.png",
+        "description": "Seorang Warlock yang menjaga gerbang arwah. Ia menggunakan kekuatan terlarang, mengorbankan esensinya sendiri untuk melepaskan sihir penghancur dan menyerap jiwa musuhnya.",
+        "stat_boost": { "hp": 35, "atk": 40, "def": 5, "spd": 5 },
+        "skills": [
+            {
+                "name": "Fel Flame",
+                "type": "active",
+                "description": "Menembakkan api terkutuk yang memberikan 75% damage dan efek burn yang memberikan 5% damage tambahan selama 2 giliran.",
+                "cooldown": 3,
+                "damage_or_effect": "Menghasilkan 75% Damage dan efek burn selama 2 giliran."
+            },
+            {
+                "name": "Demonic Pact",
+                "type": "active",
+                "description": "Mengorbankan 10% HP saat ini untuk meningkatkan ATK sebesar 30% pada giliran berikutnya.",
+                "cooldown": 4,
+                "damage_or_effect": "Mengorbankan 10% HP saat ini untuk meningkatkan ATK sebesar 30% selama 1 giliran."
+            },
+            {
+                "name": "Soul Siphon",
+                "type": "passive",
+                "description": "Setiap serangan memiliki 15% kemungkinan untuk mencuri sejumlah kecil HP dari musuh.",
+                "damage_or_effect": "Setiap serangan memiliki 15% kemungkinan untuk menyerap HP setara 25% dari damage yang diberikan."
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "name": "Pixel Prodigy",
+        "rarity": "Rare",
+        "image_file": "the_pixelated_prodigy.png",
+        "description": "Seorang pahlawan dari dunia digital yang serangannya tak terduga seperti glitch. Dia mengubah kesalahan menjadi kekuatan dan menolak untuk game over.",
+        "stat_boost": { "hp": 35, "atk": 35, "def": 5 },
+        "skills": [
+            {
+                "name": "Button Mash",
+                "type": "active",
+                "description": "Melakukan 3 serangan acak yang masing-masing memberikan 35% damage.",
+                "cooldown": 2,
+                "damage_or_effect": "Menghasilkan 3 serangan acak (masing-masing 35%)."
+            },
+            {
+                "name": "Rage Quit",
+                "type": "active",
+                "description": "Hanya bisa digunakan saat HP < 25%. Memberikan 150% damage, namun akan terkena stun pada giliran berikutnya.",
+                "cooldown": 4,
+                "damage_or_effect": "Menghasilkan 150% Damage, pengguna terkena stun 1 giliran. (Syarat: HP < 25%)"
+            },
+            {
+                "name": "Extra Life",
+                "type": "passive",
+                "description": "Satu kali per pertarungan, saat HP mencapai 0, dia akan hidup kembali dengan 15% HP.",
+                "damage_or_effect": "Saat HP mencapai 0, hidup kembali dengan 15% HP (1 kali per pertarungan)."
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Goddess' Chef",
+        "rarity": "Rare",
+        "image_file": "blessing_of_the_food_goddess.png",
+        "description": "Seorang koki ilahi yang percaya bahwa makanan enak adalah obat terbaik. Setiap hidangannya tidak hanya mengenyangkan tetapi juga memulihkan semangat juang.",
+        "stat_boost": { "hp": 55, "def": 30 },
+        "skills": [
+            {
+                "name": "Spicy Dish",
+                "type": "active",
+                "description": "Melempar masakan pedas ke musuh, memberikan 80% damage dan memberikan efek burn ringan selama 2 giliran.",
+                "cooldown": 3,
+                "damage_or_effect": "Menghasilkan 80% Damage dan efek burn selama 2 giliran."
+            },
+            {
+                "name": "Hearty Meal",
+                "type": "active",
+                "description": "Memakan masakan lezat, memulihkan HP diri sendiri sebesar 25% dari max HP.",
+                "cooldown": 1,
+                "damage_or_effect": "Memulihkan 25% dari Max HP diri sendiri."
+            },
+            {
+                "name": "Well-Fed",
+                "type": "passive",
+                "description": "Memulai pertarungan dengan peningkatan HP maksimal sebesar 10%.",
+                "damage_or_effect": "Meningkatkan Max HP sebesar 10% di awal pertarungan."
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Nameless Blade",
+        "rarity": "Common",
+        "image_file": "bilah_tanpa_nama.png",
+        "description": "Seorang pendekar pedang yang kisahnya belum tertulis. Setiap ayunannya adalah janji akan potensi yang tersembunyi, didorong oleh semangat untuk mengukir sebuah nama.",
+        "stat_boost": { "hp": 30, "atk": 20, "def": 20 },
+        "skills": [
+            {
+                "name": "First Cut",
+                "type": "active",
+                "description": "Sebuah ayunan pedang yang sederhana namun terarah, menunjukkan dasar-dasar ilmu pedang.",
+                "cooldown": 2,
+                "damage_or_effect": "Menghasilkan 110% Damage."
+            },
+            {
+                "name": "Steady Guard",
+                "type": "active",
+                "description": "Mengambil posisi bertahan untuk mengantisipasi serangan lawan.",
+                "cooldown": 3,
+                "damage_or_effect": "Meningkatkan DEF sebesar 15% selama 2 giliran."
+            },
+            {
+                "name": "Eager Heart",
+                "type": "passive",
+                "description": "Semangatnya yang tak kenal takut terkadang membuahkan hasil yang tak terduga.",
+                "damage_or_effect": "Setiap serangan dasar memiliki 5% kemungkinan untuk meningkatkan ATK sebesar 10% selama 1 giliran."
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Altar's Whisper",
+        "rarity": "Common",
+        "image_file": "bisikan_altar.png",
+        "description": "Seorang pemula dalam jalan suci yang doanya baru terdengar seperti bisikan. Namun, dalam bisikan itu terkandung percikan iman yang dapat memulihkan luka.",
+        "stat_boost": { "hp": 45, "def": 25 },
+        "skills": [
+            {
+                "name": "Mending Light",
+                "type": "active",
+                "description": "Mengalirkan sedikit energi suci untuk memulihkan luka ringan.",
+                "cooldown": 3,
+                "damage_or_effect": "Memulihkan 15% dari Max HP diri sendiri."
+            },
+            {
+                "name": "Hallowed Ward",
+                "type": "active",
+                "description": "Memanjatkan doa singkat untuk menciptakan perisai cahaya yang rapuh.",
+                "cooldown": 4,
+                "damage_or_effect": "Menciptakan perisai kecil yang menyerap kerusakan setara dengan 10% Max HP."
+            },
+            {
+                "name": "Steadfast Faith",
+                "type": "passive",
+                "description": "Keyakinannya pada yang ilahi memperkuat efek dari mantra suci.",
+                "damage_or_effect": "Meningkatkan semua efek penyembuhan yang diterima sebesar 5%."
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Leaf's Shadow",
+        "rarity": "Common",
+        "image_file": "bayang_dedaunan.png",
+        "description": "Seorang pengintai yang bergerak selaras dengan gemerisik daun. Kehadirannya seringkali baru disadari saat belatinya menemukan celah di pertahanan lawan.",
+        "stat_boost": { "hp": 15, "atk": 30, "spd": 30 },
+        "skills": [
+            {
+                "name": "Swift Strike",
+                "type": "active",
+                "description": "Serangan belati yang cepat dan tak terduga, menargetkan celah di pertahanan lawan.",
+                "cooldown": 2,
+                "damage_or_effect": "Menghasilkan 105% Damage."
+            },
+            {
+                "name": "Wind Step",
+                "type": "active",
+                "description": "Menggunakan hembusan angin untuk menyembunyikan gerakan dan meningkatkan kecepatan.",
+                "cooldown": 4,
+                "damage_or_effect": "Meningkatkan SPD sebesar 20% selama 2 giliran."
+            },
+            {
+                "name": "Keen Senses",
+                "type": "passive",
+                "description": "Selalu waspada, membuatnya sulit untuk diserang secara tiba-tiba.",
+                "damage_or_effect": "Memiliki 10% kemungkinan untuk menghindari serangan dasar."
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "name": "First Spark",
+        "rarity": "Common",
+        "image_file": "percikan_mantra.png",
+        "description": "Seorang perapal yang jarinya masih berdebu tinta grimoire. Mantra pertamanya mungkin kecil, namun itu adalah percikan dari badai sihir yang akan datang.",
+        "stat_boost": { "hp": 20, "atk": 35, "spd": 15 },
+        "skills": [
+            {
+                "name": "Ember Cast",
+                "type": "active",
+                "description": "Merapalkan mantra dasar untuk meluncurkan bola api kecil ke arah lawan.",
+                "cooldown": 3,
+                "damage_or_effect": "Menghasilkan 120% Damage sihir."
+            },
+            {
+                "name": "Fading Curse",
+                "type": "active",
+                "description": "Mengucapkan mantra sederhana yang menguras sedikit kekuatan lawan.",
+                "cooldown": 4,
+                "damage_or_effect": "Mengurangi ATK lawan sebesar 10% selama 2 giliran."
+            },
+            {
+                "name": "Arcane Echo",
+                "type": "passive",
+                "description": "Terkadang, aliran mana di sekitarnya membantu mempercepat perapalan mantra.",
+                "damage_or_effect": "Setiap kali menggunakan skill, ada 5% kemungkinan untuk mengurangi cooldown semua skill sebanyak 1 giliran."
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "name": "Concrete Will",
+        "rarity": "Common",
+        "image_file": "tekad_beton.png",
+        "description": "Petarung yang ditempa oleh kerasnya jalanan. Ia tidak memiliki teknik yang indah, hanya tekad sekeras beton dan pukulan yang mampu meretakkan batu.",
+        "stat_boost": { "hp": 50, "atk": 30, "def": 10 },
+        "skills": [
+            {
+                "name": "Heavy Blow",
+                "type": "active",
+                "description": "Sebuah pukulan tanpa teknik yang mengandalkan kekuatan kasar semata.",
+                "cooldown": 3,
+                "damage_or_effect": "Menghasilkan 130% Damage."
+            },
+            {
+                "name": "Iron Resolve",
+                "type": "active",
+                "description": "Mengeraskan diri untuk menahan serangan berikutnya.",
+                "cooldown": 4,
+                "damage_or_effect": "Mengurangi kerusakan yang diterima pada serangan berikutnya sebesar 30%."
+            },
+            {
+                "name": "Cornered Fury",
+                "type": "passive",
+                "description": "Semakin terluka, semakin berbahaya ia jadinya.",
+                "damage_or_effect": "Jika HP berada di bawah 30%, ATK meningkat sebesar 15%."
+            }
+        ]
+    }
+]

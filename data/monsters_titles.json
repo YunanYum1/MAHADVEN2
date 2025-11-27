@@ -1,0 +1,244 @@
+[
+    {
+        "id": 201,
+        "name": "Wanderer",
+        "description": "Seorang pengelana misterius yang identitasnya tersembunyi di balik jubah. Gerakannya cepat dan tak terduga, muncul dan menghilang seperti angin tanpa meninggalkan jejak.",
+        "stat_boost": { "spd": 20, "crit_rate": 0.15 },
+        "skills": [
+            { "name": "Silent Strike", "type": "active", "description": "Serangan mematikan dari titik buta, memberikan 150% ATK dengan tambahan 20% CRIT Rate." },
+            { "name": "Flowing Blade", "type": "active", "description": "Serangan tebasan cepat yang memberikan 120% ATK dan memperlambat target (-15% SPD) selama 2 giliran." },
+            { "name": "Formless", "type": "passive", "description": "Sulit untuk menjadi target karena gerakannya yang tak terduga, meningkatkan Evasion sebesar 15%." }
+        ]
+    },
+    {
+        "id": 202,
+        "name": "Puppet Knight",
+        "description": "Boneka kayu yang diberi kehidupan melalui sihir gelap. Tanpa emosi dan rasa sakit, ia bertarung hanya untuk mematuhi perintah tuannya hingga tubuhnya hancur berkeping-keping.",
+        "stat_boost": { "atk": 15, "hp": 50 },
+        "skills": [
+            { "name": "Mechanical Slash", "type": "active", "description": "Tebasan pedang yang kaku namun kuat, memberikan 160% ATK." },
+            { "name": "Core Overload", "type": "active", "description": "Meledakkan energi sihir terpusat pada lawan, memberikan 180% ATK dengan mengorbankan 15% HP miliknya." },
+            { "name": "Unbroken Threads", "type": "passive", "description": "Benang sihir yang menggerakkannya sangat kuat. Saat hancur (mati), ada 25% kemungkinan untuk hidup kembali (revive) dengan 20% HP." }
+        ]
+    },
+    {
+        "id": 203,
+        "name": "Berserker",
+        "description": "Seorang pejuang yang dikhianati dan dibuang, kini kembali dengan amarah yang meluap-luap. Setiap pukulannya didasari oleh dendam yang membara di dalam hatinya.",
+        "stat_boost": { "atk": 25, "crit_damage": 0.20, "def": -10, "hp": -15 },
+        "skills": [
+            { "name": "Vengeful Fist", "type": "active", "description": "Pukulan kuat yang dipenuhi dendam, memberikan 170% ATK dan mampu menembus 15% DEF target." },
+            { "name": "Savage Rampage", "type": "active", "description": "Melepaskan amukan membabi buta yang memberikan 200% ATK, namun mengorbankan 10% HP miliknya sendiri." },
+            { "name": "Burning Blood", "type": "passive", "description": "Semakin terluka, semakin besar amarahnya. Saat HP berada di bawah 50%, CRIT DMG miliknya meningkat sebesar 30%." }
+        ]
+    },
+    {
+        "id": 204,
+        "name": "Forest Reaper",
+        "description": "Roh penjaga hutan yang telah rusak. Dulu ia melindungi kehidupan, kini ia menggunakan kekuatan alam untuk menjerat dan meracuni semua yang dianggapnya sebagai penyusup.",
+        "stat_boost": { "hp": 80, "def": 15 },
+        "skills": [
+            { "name": "Root Bind", "type": "active", "description": "Memerintahkan akar-akar pohon untuk mencengkeram target, memberikan 120% ATK dan menahan pergerakannya (root) selama 1 giliran." },
+            { "name": "Concentrated Venom", "type": "active", "description": "Menyuntikkan racun pekat ke target, memberikan 90% ATK dan meracuni mereka selama 2 giliran." },
+            { "name": "Forests Breath", "type": "passive", "description": "Hutan memberinya kekuatan untuk pulih. Meregenerasi 5% HP setiap giliran." }
+        ]
+    },
+    {
+        "id": 205,
+        "name": "Dark Champion",
+        "description": "Seorang juara arena yang hatinya telah dihitamkan oleh pertempuran tanpa akhir. Ia tidak lagi bertarung untuk kehormatan, melainkan untuk kepuasan membantai lawannya.",
+        "stat_boost": { "atk": 15, "def": 20, "hp": 30 },
+        "skills": [
+            { "name": "Arenas Cleave", "type": "active", "description": "Tebasan kuat yang dilatih di arena, memberikan 170% ATK yang kekuatannya juga diskalakan dengan 10% dari DEF miliknya." },
+            { "name": "Finishing Blow", "type": "active", "description": "Serangan terfokus yang memberikan 150% ATK dengan tambahan 25% CRIT Rate." },
+            { "name": "Dark Honor", "type": "passive", "description": "Di ambang kekalahan, semangat bertarungnya justru berkobar. Saat HP turun di bawah 40%, SPD miliknya meningkat sebesar 20%." }
+        ]
+    },
+    {
+        "id": 206,
+        "name": "Swordsman Phantom",
+        "description": "Seorang pendekar pedang legendaris yang jiwanya terikat pada pedangnya, kini bangkit dari kematian sebagai bayangan yang haus akan pertempuran.",
+        "stat_boost": { "atk": 20, "crit_rate": 0.10, "lifesteal": 0.05 },
+        "skills": [
+            { "name": "Shadow Slash", "type": "active", "description": "Serangan cepat yang menyayat jiwa lawan, memberikan 150% ATK dan memulihkan HP sebesar 20% dari kerusakan yang dihasilkan (lifesteal)." },
+            { "name": "Splitting Shadow", "type": "active", "description": "Menciptakan bayangan untuk menyerang bersamaan, menghasilkan dua serangan cepat masing-masing sebesar 80% ATK." },
+            { "name": "Immortal Blade", "type": "passive", "description": "Ketika HP turun di bawah 30%, insting bertarungnya mencapai puncak, meningkatkan CRIT Rate sebesar 20% selama 2 giliran." }
+        ]
+    },
+    {
+        "id": 207,
+        "name": "Blade Dancer",
+        "description": "Seorang penari anggun yang mengubah medan perang menjadi panggung pembantaian. Setiap gerakannya adalah tarian mematikan yang diakhiri dengan percikan darah.",
+        "stat_boost": { "atk": 20, "spd": 15 },
+        "skills": [
+            { "name": "Crimson Edge", "type": "active", "description": "Tebasan cepat yang memberikan 110% ATK dan menyebabkan pendarahan (bleed) selama 2 giliran." },
+            { "name": "Blade Fury", "type": "active", "description": "Melancarkan 3 serangan cepat ke target, masing-masing sebesar 60% ATK dengan tambahan 10% CRIT Rate." },
+            { "name": "Blood Frenzy", "type": "passive", "description": "Setiap kali mendaratkan serangan kritis (critical hit), ATK miliknya meningkat 10% selama 2 giliran." }
+        ]
+    },
+    {
+        "id": 208,
+        "name": "Corrupt Alchemist",
+        "description": "Seorang ilmuwan gila yang terobsesi dengan racun dan wabah. Eksperimennya mengubah hujan menjadi asam korosif, dan setiap napasnya adalah racun bagi dunia.",
+        "stat_boost": { "hp": 70, "atk": 10 },
+        "skills": [
+            { "name": "Poison Vial", "type": "active", "description": "Melemparkan botol racun ke target, memberikan 90% ATK dan efek racun kuat (10% HP) selama 2 giliran." },
+            { "name": "Acid Splash", "type": "active", "description": "Menyiram target dengan asam, memberikan 120% ATK dan merusak pertahanan mereka (-15% DEF) selama 2 giliran." },
+            { "name": "Toxic Body", "type": "passive", "description": "Tubuhnya telah menyatu dengan racun. Setiap musuh yang menyerangnya akan terkena racun." }
+        ]
+    },
+    {
+        "id": 209,
+        "name": "Thorn Witch",
+        "description": "Seorang penyihir yang menguasai kekuatan alam paling liar. Ia memerintah tamannya yang dipenuhi mawar berduri, siap menjerat siapa pun yang berani mengusik ketenangannya.",
+        "stat_boost": { "hp": 60, "def": 25, "atk": 5 },
+        "skills": [
+            { "name": "Binding Thorns", "type": "active", "description": "Menumbuhkan duri dari tanah untuk mengikat target, memberikan 100% ATK dan menahan pergerakan (Root) selama 1 giliran." },
+            { "name": "Wilted Rose", "type": "active", "description": "Mengutuk target dengan mawar layu, memberikan 80% ATK dan meracuni mereka selama 2 giliran (mengurangi 10% HP per giliran)." },
+            { "name": "Thorny Garden", "type": "passive", "description": "Siapa pun yang menyerangnya akan merasakan sakitnya duri. Memantulkan 10% dari kerusakan yang diterima kembali ke penyerang." }
+        ]
+    },
+    {
+        "id": 210,
+        "name": "Chain Warden",
+        "description": "Penjaga penjara terkutuk yang arwahnya dirantai selamanya. Ia kini berkeliaran untuk menyeret jiwa-jiwa yang hidup ke dalam jurang keputusasaan.",
+        "stat_boost": { "def": 30, "hp": 100 },
+        "skills": [
+            { "name": "Prison Chain", "type": "active", "description": "Melempar rantai terkutuk yang merusak sebesar 100% ATK + 20% DEF, dan memperlambat target (-25% SPD) selama 2 giliran." },
+            { "name": "Drag to the Abyss", "type": "active", "description": "Menarik paksa target dengan rantai, memberikan 180% ATK dan memiliki 25% kemungkinan membuatnya pingsan (stun) selama 1 giliran." },
+            { "name": "Bound Soul", "type": "passive", "description": "Setiap kali musuh terkena debuff, jiwanya yang terikat mengeras, meningkatkan DEF sebesar 15%." }
+        ]
+    },
+    {
+        "id": 211,
+        "name": "Sun Sentinel",
+        "description": "Ksatria suci yang berdiri tegak sebagai penjaga gerbang surgawi. Dengan tombak dan perisai yang bersinar seperti matahari, ia menghanguskan kegelapan dengan cahayanya.",
+        "stat_boost": { "def": 40, "hp": 120, "atk": 10 },
+        "skills": [
+            { "name": "Burning Light", "type": "active", "description": "Menembakkan seberkas cahaya suci yang membakar, memberikan 160% ATK dan menyebabkan efek terbakar (burn) selama 2 giliran (5% HP per giliran)." },
+            { "name": "Solar Spear", "type": "active", "description": "Hantaman tombak yang diperkuat oleh pertahanannya, memberikan 180% ATK ditambah 10% dari nilai DEF miliknya." },
+            { "name": "Retribution Aura", "type": "passive", "description": "Setiap kali menerima serangan, memiliki 20% kemungkinan untuk meningkatkan DEF diri sendiri sebesar 15% selama 2 giliran." }
+        ]
+    },
+    {
+        "id": 212,
+        "name": "Ghost Captain",
+        "description": "Arwah seorang kapten bajak laut yang kapalnya tenggelam ke dasar laut terdalam. Kini ia dan krunya yang abadi berlayar di lautan kabut.",
+        "stat_boost": { "atk": 30, "hp": 50 },
+        "skills": [
+            { "name": "Cursed Cannonball", "type": "active", "description": "Menembakkan meriam spektral yang menembus pertahanan, memberikan 170% ATK dan mengabaikan 15% DEF target." },
+            { "name": "Deep Sea Curse", "type": "active", "description": "Mengutuk target dengan aura laut dalam, memberikan 130% ATK dan mengurangi ATK target sebesar 20% selama 2 giliran." },
+            { "name": "Ghostly Rage", "type": "passive", "description": "Setiap 4 giliran, serangan berikutnya akan memberikan 50% damage tambahan." }
+        ]
+    },
+    {
+        "id": 213,
+        "name": "Doppelgänger",
+        "description": "Makhluk peniru misterius yang tidak memiliki wujud asli. Ia mampu mencuri rupa dan kemampuan lawannya, menciptakan kebingungan di medan perang.",
+        "stat_boost": { "spd": 15, "hp": 40, "atk": 15, "def": 15 },
+        "skills": [
+            { "name": "Lifes Mirror", "type": "active", "description": "Meniru satu skill aktif yang dimiliki lawan dan menggunakannya dengan kekuatan sebesar 50%." },
+            { "name": "Dual Face", "type": "active", "description": "Melancarkan serangan mengejutkan sebesar 130% ATK dengan elemen yang berubah-ubah secara acak." },
+            { "name": "False Identity", "type": "passive", "description": "Wujudnya yang tidak pasti membuatnya sulit diserang, memberikannya 15% kemungkinan untuk menghindari serangan." }
+        ]
+    },
+    {
+        "id": 214,
+        "name": "Flame Revenant",
+        "description": "Arwah pendendam yang terlahir kembali dari api abadi. Tubuhnya adalah lahar yang membara, dan setiap serangannya meninggalkan jejak kehancuran yang membakar.",
+        "stat_boost": { "atk": 40, "hp": 80 },
+        "skills": [
+            { "name": "Lava Burst", "type": "active", "description": "Meledakkan energi api yang sangat besar, memberikan 200% ATK dan menyebabkan efek terbakar (burn) selama 2 giliran." },
+            { "name": "Incinerate", "type": "active", "description": "Menembakkan bola api ke target, memberikan 140% ATK dan membakar mereka selama 1 giliran." },
+            { "name": "Body of Fire", "type": "passive", "description": "Tubuhnya yang sepanas api akan membakar siapa pun yang menyerangnya. Serangan fisik akan menyebabkan penyerang terkena efek burn selama 1 giliran." }
+        ]
+    },
+    {
+        "id": 215,
+        "name": "Dark Bard",
+        "description": "Seorang penyair gelap yang alunan serulingnya tidak membawa kedamaian, melainkan menyebarkan kutukan dan keputusasaan. Melodinya adalah awal dari mimpi buruk abadi.",
+        "stat_boost": { "spd": 25, "hp": 100 },
+        "skills": [
+            { "name": "Draining Note", "type": "active", "description": "Memainkan melodi yang menyayat hati, memberikan 100% ATK dan melemahkan ATK target sebesar 20% selama 2 giliran." },
+            { "name": "Lullaby of Nightmares", "type": "active", "description": "Alunan musik yang menghipnotis, memberikan 120% ATK dengan 30% kemungkinan membuat target tertidur (sleep) selama 1 giliran." },
+            { "name": "Haunting Presence", "type": "passive", "description": "Kehadirannya memancarkan aura suram, mengurangi SPD lawan sebesar 5% selama ia masih hidup." }
+        ]
+    },
+    {
+        "id": 216,
+        "name": "Fog Lord",
+        "description": "Penguasa kabut misterius yang menyelimuti dunia. Wujudnya samar dan tak terlihat, menyerang dari dalam kabut tebal dan membuat musuh kehilangan arah.",
+        "stat_boost": { "spd": 30, "evasion_rate": 0.10 },
+        "skills": [
+            { "name": "Blinding Mist", "type": "active", "description": "Meniupkan kabut pekat yang membutakan, memberikan 90% ATK dan mengurangi akurasi target (-20% ACC) selama 2 giliran." },
+            { "name": "Hand of Fog", "type": "active", "description": "Membentuk tangan dari kabut untuk mencengkeram target, memberikan 150% ATK dan memperlambatnya (-15% SPD) selama 2 giliran." },
+            { "name": "Vague Form", "type": "passive", "description": "Sulit untuk diserang karena tubuhnya yang terbuat dari kabut, memberikannya 20% kemungkinan untuk menghindari serangan." }
+        ]
+    },
+    {
+        "id": 217,
+        "name": "Shadow Dragon",
+        "description": "Seekor naga yang tubuhnya terbuat dari bayangan murni. Ia adalah predator malam yang terbang tanpa suara, menebar teror dari kegelapan dengan cakar dan napasnya.",
+        "stat_boost": { "atk": 35, "spd": 25, "crit_damage": 0.25 },
+        "skills": [
+            { "name": "Dark Claw", "type": "active", "description": "Mencakar target dengan cakar bayangan yang tajam, memberikan 180% ATK dengan tambahan 15% CRIT DMG." },
+            { "name": "Shadow Breath", "type": "active", "description": "Menghembuskan napas kegelapan pekat, memberikan 110% ATK dan mengganggu penglihatan target (-20% ACC) selama 2 giliran." },
+            { "name": "Night Flight", "type": "passive", "description": "Sebagai penguasa malam, ia bergerak lebih cepat di dalam kegelapan, meningkatkan SPD sebesar 10%." }
+        ]
+    },
+    {
+        "id": 218,
+        "name": "Fallen Emperor",
+        "description": "Seorang kaisar yang kerajaannya telah lama runtuh, namun kesombongan dan kekuasaannya menolak untuk mati. Dari takhta bayangannya, ia memerintah pasukan hantu.",
+        "stat_boost": { "atk": 50, "hp": 150, "def": 20 },
+        "skills": [
+            { "name": "Imperial Sword", "type": "active", "description": "Serangan pedang agung yang penuh wibawa, memberikan 190% ATK kepada satu target." },
+            { "name": "Decree of Ruin", "type": "active", "description": "Memberikan titah kehancuran, menyerang sebesar 140% ATK dan menghancurkan pertahanan target (-15% DEF) selama 2 giliran." },
+            { "name": "Shadow Throne", "type": "passive", "description": "Semakin dekat ia dengan kekalahan, semakin besar kekuatannya. Saat HP berada di bawah 50%, ATK miliknya meningkat sebesar 20%." }
+        ]
+    },
+    {
+        "id": 219,
+        "name": "Cult Priest",
+        "description": "Seorang pendeta dari sekte sesat yang menyembah entitas tak dikenal. Di balik topeng gadingnya, ia melakukan ritual gelap yang mengorbankan darah untuk kekuatan.",
+        "stat_boost": { "hp": 200, "def": 30 },
+        "skills": [
+            { "name": "Blood Offering", "type": "active", "description": "Melakukan ritual terlarang untuk menyembuhkan diri sendiri sebesar 30% HP dengan mengorbankan 15% HP miliknya." },
+            { "name": "Ivory Curse", "type": "active", "description": "Mengucapkan kutukan kuno pada target, memberikan 130% ATK dan merapuhkan pertahanannya (-10% DEF) selama 2 giliran." },
+            { "name": "Final Prayer", "type": "passive", "description": "Saat HP turun di bawah 30% untuk pertama kalinya, langsung memulihkan 25% HP." }
+        ]
+    },
+    {
+        "id": 220,
+        "name": "Fate Weaver",
+        "description": "Entitas kuno yang menenun takdir dengan benang merah kehidupan. Ia dapat memanipulasi nasib, menyambung luka, atau memutuskannya sama sekali.",
+        "stat_boost": { "hp": 150, "spd": 20, "def": 20 },
+        "skills": [
+            { "name": "Thread of Life", "type": "active", "description": "Menarik benang kehidupan dari target untuk menyambung benangnya sendiri, menyerap 15% HP musuh." },
+            { "name": "Self Mending", "type": "active", "description": "Menenun kembali lukanya sendiri, menyembuhkan diri sebesar 25% HP." },
+            { "name": "Written Fate", "type": "passive", "description": "Takdir berada di tangannya. Setiap 4 giliran, ia memiliki 40% kemungkinan untuk membuat lawannya pingsan (stun) selama 1 giliran." }
+        ]
+    },
+    {
+        "id": 221,
+        "name": "Abyss Guardian",
+        "description": "Penjaga raksasa yang berdiri di ambang gerbang menuju dunia bawah. Ia adalah benteng terakhir yang memisahkan dunia orang hidup dari kehampaan abadi.",
+        "stat_boost": { "atk": 40, "def": 40, "hp": 250, "spd": -20 },
+        "skills": [
+            { "name": "Abyss Strike", "type": "active", "description": "Pukulan dahsyat yang dialiri kekuatan dari abyss, memberikan 200% ATK dan mengabaikan 15% DEF target." },
+            { "name": "Hellfire Chains", "type": "active", "description": "Mengikat lawan dengan rantai neraka, memberikan 120% ATK serta menyebabkan efek burn dan poison selama 2 giliran." },
+            { "name": "Final Vengeance", "type": "passive", "description": "Bahkan dalam kematian, tugasnya belum berakhir. Saat mati, memberikan 120% ATK sebagai kerusakan terakhir pada lawannya." }
+        ]
+    },
+    {
+        "id": 222,
+        "name": "Mythic Kitsune",
+        "description": "Roh rubah purba dengan sembilan ekor yang menyimpan kekuatan magis luar biasa. Ia adalah leluhur yang bijaksana namun juga licik, mampu menciptakan ilusi dan membakar musuh.",
+        "stat_boost": { "atk": 30, "spd": 30, "hp": 100 },
+        "skills": [
+            { "name": "Spirit Fireball", "type": "active", "description": "Melepaskan api roh terkonsentrasi, memberikan 190% ATK dan membakar target selama 2 giliran." },
+            { "name": "Red Moon Charm", "type": "active", "description": "Memesona lawan di bawah bulan merah, membuatnya pingsan (stun) selama 1 giliran sambil memulihkan 10% HP diri sendiri." },
+            { "name": "Eternal Power", "type": "passive", "description": "Kekuatan magisnya terus tumbuh seiring berjalannya waktu. Setiap giliran, ATK miliknya meningkat sebesar 5%, dapat ditumpuk hingga maksimal 50%." }
+        ]
+    }
+]

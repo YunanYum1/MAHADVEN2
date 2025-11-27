@@ -1,0 +1,153 @@
+{
+    "stream_titles": {
+        "gaming": [
+            "Main Game Santai~ | Chill Stream",
+            "RANKED GRIND! Road to Top #1",
+            "Main Game Horor (Sambil Pakai Popok)",
+            "Mabar Bareng Viewers! Ayo Gabung!",
+            "Namat_in Game RPG Ini! | Blind Playthrough",
+            "Waktunya Bakar Duit di Gacha!",
+            "Speedrun Challenge! Pecahin Rekor Pribadi",
+            "Adu Mekanik di Game MOBA!",
+            "Mencoba Game Indie yang Aneh-Aneh",
+            "Satu Nyawa Challenge di Game Soulslike!"
+        ],
+        "donathon": [
+            "DONATHON! Semua Donasi Untuk Upgrade PC!",
+            "Charity Stream! Mari Berbuat Baik Bersama!",
+            "Setiap Donasi = 1x Push-up di Stream!",
+            "Bantu Aku Beli Mic Baru! | GOAL: 1 Juta",
+            "Donasi untuk Debut Kostum Baru!",
+            "Stream 12 Jam Non-Stop (Kalau Target Tercapai!)",
+            "Setiap Donasi Memperpanjang Durasi Stream!",
+            "Karaoke Dadakan Kalau Donasi Tembus Target!",
+            "Stream Amal untuk Panti Asuhan Hewan"
+        ],
+        "free_talk": [
+            "Zatsudan Time! Ngobrol Santai Yuk",
+            "Q&A Special! Tanya Apapun!",
+            "React Video Lucu di Internet!",
+            "Karaoke Night! Mari Bernyanyi Bersama~",
+            "Sesi Curhat & Memberi Saran",
+            "Deep Talk: Membahas Topik Serius",
+            "Belajar Bahasa Baru Bareng Aku!",
+            "Membuat Tier List Makanan, Ayo Berdebat!",
+            "Sesi Menggambar & Ngobrol Santai",
+            "Unboxing Kiriman dari Kalian!"
+        ],
+        "collab": [
+            "OFF-COLLAB! Kita Ketemuan di Dunia Nyata?!",
+            "Adu Pintu (Portal) di Game Puzzle Bareng Partner!",
+            "Lomba Masak Virtual: Siapa yang Paling Hancur?",
+            "Keep Talking and Nobody Explodes: Jangan Meledak!",
+            "Phasmophobia Duo: Siapa yang Teriak Duluan?",
+            "Podcast Tengah Malam: Mengupas Rahasia Partner",
+            "Sesi Hujat-Hujatan Santai (Tapi Sayang)",
+            "Karaoke Duet: Mencoba Harmonisasi (Gagal Total)",
+            "Minecraft Hardcore: Berapa Lama Kita Bertahan?",
+            "Review Meme Bareng: Siapa yang Ketawa Duluan Kalah"
+        ],
+        "asmr": [
+            "ASMR Ear Cleaning (Kanan & Kiri) ~",
+            "ASMR Whispering: Curhat Sebelum Tidur",
+            "ASMR Typing Sounds & Mouse Clicks (No Talking)",
+            "ASMR Heartbeat & Breathing (Sangat Dekat)",
+            "ASMR Roleplay: Merawatmu yang Sedang Sakit"
+        ]
+    },
+    "stream_events": [
+        { "text": "VTuber terkenal melakukan 'raid', membawa ratusan penonton baru!", "log_text": "RAID BESAR! Penonton membludak!", "type": "positive_spike", "emoji": "🚀", "hype_impact": 40, "viewer_spike": [100, 200], "exp_bonus": 20, "prisma_bonus": 50 },
+        { "text": "Debut model 2.0-mu sukses besar! Semua orang menyukainya!", "log_text": "Debut model baru sukses!", "type": "positive_spike", "emoji": "✨", "hype_impact": 40, "viewer_spike": [80, 180], "exp_bonus": 50, "prisma_bonus": 100 },
+        { "text": "Klip epik dari stream-mu viral di media sosial!", "log_text": "Klip stream-mu viral!", "type": "positive_spike", "emoji": "🔥", "hype_impact": 30, "viewer_spike": [50, 120], "exp_bonus": 25, "prisma_bonus": 40 },
+        { "text": "Kamu memenangkan turnamen game online yang disiarkan langsung! Kemenanganmu menjadi sorotan komunitas!", "log_text": "Menang turnamen! Jadi juara!", "type": "positive_spike", "emoji": "🏆", "hype_impact": 50, "viewer_spike": [120, 250], "exp_bonus": 60, "prisma_bonus": 80 },
+        
+        { "text": "Koneksi internet mati total selama beberapa menit, membunuh momentum stream.", "log_text": "Koneksi internet mati total!", "type": "negative_spike", "emoji": "🔌", "hype_impact": -35, "viewer_drop_percentage": 0.6 },
+        { "text": "Game yang kamu mainkan 'crash' parah dan merusak save file-mu.", "log_text": "Game crash dan save file rusak!", "type": "negative_spike", "emoji": "😨", "hype_impact": -25, "viewer_drop_percentage": 0.3 },
+        { "text": "Listrik di rumahmu tiba-tiba padam! Stream terputus secara mendadak.", "log_text": "MATI LAMPU! Stream terputus!", "type": "negative_spike", "emoji": "💡", "hype_impact": -40, "viewer_drop_percentage": 0.8 },
+        
+        { "text": "Seorang 'whale' muncul dan menghujani channel dengan donasi besar!", "log_text": "Donasi besar dari seorang 'whale'!", "type": "positive", "emoji": "🎉", "hype_impact": 20, "exp_bonus": 15, "prisma_bonus": 120 },
+        { "text": "Kamu berhasil melakukan 'clutch play' yang mustahil di dalam game!", "log_text": "'Clutch play' yang luar biasa!", "type": "positive", "emoji": "🤯", "hype_impact": 15, "exp_bonus": 20, "prisma_bonus": 10 },
+        { "text": "Kamu mendapatkan 'SSR pull' yang sangat langka di game gacha yang sedang kamu mainkan!", "log_text": "DAPAT SSR! HOKI GILA!", "type": "positive", "emoji": "🌟", "hype_impact": 25, "exp_bonus": 10, "prisma_bonus": 30 },
+        { "text": "Sesi Q&A menjadi sangat personal dan menyentuh, membuat ikatanmu dengan komunitas semakin kuat.", "log_text": "Momen emosional dengan chat.", "type": "positive", "emoji": "💖", "hype_impact": 22, "exp_bonus": 15, "prisma_bonus": 25 },
+        { "text": "Kamu berhasil mengalahkan 'Super Boss' yang terkenal sangat sulit setelah mencoba berkali-kali!", "log_text": "Super Boss berhasil dikalahkan!", "type": "positive", "emoji": "⚔️", "hype_impact": 18, "exp_bonus": 30, "prisma_bonus": 15 },
+
+        { "text": "Chat menjadi sangat aktif membahas topik acak.", "log_text": "Chat menjadi sangat aktif.", "type": "neutral", "emoji": "💬", "hype_impact": 5, "exp_bonus": 5, "prisma_bonus": 5 },
+        { "text": "Seorang penonton baru saja subscribe! Selamat datang di keluarga!", "log_text": "Seorang penonton baru saja subscribe!", "type": "neutral", "emoji": "❤️", "hype_impact": 10, "exp_bonus": 10, "prisma_bonus": 5 },
+        { "text": "Kamu mengambil jeda sejenak untuk minum air.", "log_text": "Kamu mengambil jeda minum.", "type": "neutral", "emoji": "💧", "hype_impact": -2, "exp_bonus": 2, "prisma_bonus": 0 },
+        { "text": "Hewan peliharaanmu tiba-tiba muncul di kamera, membuat chat gemas!", "log_text": "Peliharaan muncul di kamera!", "type": "neutral", "emoji": "🐾", "hype_impact": 8, "exp_bonus": 7, "prisma_bonus": 2 },
+        { "text": "Kamu mengganti BGM stream, dan chat menyukai pilihan lagumu.", "log_text": "BGM baru disukai chat.", "type": "neutral", "emoji": "🎵", "hype_impact": 3, "exp_bonus": 3, "prisma_bonus": 1 },
+        
+        { "text": "Beberapa 'troll' muncul di chat dan mencoba memancing keributan.", "log_text": "Troll di chat.", "type": "negative", "emoji": "😠", "hype_impact": -15, "exp_bonus": 3, "prisma_bonus": 0 },
+        { "text": "Ada laporan 'chargeback' pada donasi sebelumnya.", "log_text": "Ada laporan 'chargeback' donasi.", "type": "negative", "emoji": "💸", "hype_impact": -12, "exp_bonus": 0, "prisma_bonus": -75 },
+        { "text": "Kamu terjebak di puzzle yang sangat mudah, membuat chat tertawa.", "log_text": "Terjebak di puzzle mudah.", "type": "negative", "emoji": "🤔", "hype_impact": -10, "exp_bonus": 5, "prisma_bonus": 0 },
+        { "text": "Mikrofonmu tiba-tiba mengeluarkan suara statis dan butuh beberapa saat untuk memperbaikinya.", "log_text": "Masalah teknis pada mikrofon.", "type": "negative", "emoji": "🎙️", "hype_impact": -18, "exp_bonus": 2, "prisma_bonus": 0 },
+        { "text": "Kamu tidak sengaja mengucapkan spoiler untuk film atau game yang populer.", "log_text": "Tidak sengaja spoiler.", "type": "negative", "emoji": "🤫", "hype_impact": -16, "exp_bonus": 3, "prisma_bonus": 0 },
+
+        { "text": "Chemistry kalian berdua sangat bagus! Chat menyebutnya momen 'TeeTee' (Manis).", "log_text": "Momen 'TeeTee' tercipta!", "type": "positive", "emoji": "💕", "hype_impact": 25, "exp_bonus": 15, "prisma_bonus": 20 },
+        { "text": "Partner collab melontarkan lelucon bapak-bapak yang sangat garing tapi lucu.", "log_text": "Jokes bapak-bapak dari partner.", "type": "neutral", "emoji": "🦗", "hype_impact": 5, "exp_bonus": 5, "prisma_bonus": 0 },
+        { "text": "Kalian berdua tidak sengaja berbicara berbarengan terus-menerus.", "log_text": "Ngomong barengan terus (Canggung).", "type": "neutral", "emoji": "😳", "hype_impact": -2, "exp_bonus": 5, "prisma_bonus": 0 },
+        { "text": "Suara partner collab bergema (echo) parah dan mengganggu penonton.", "log_text": "Audio bocor/Echo parah.", "type": "negative", "emoji": "🔊", "hype_impact": -15, "exp_bonus": 0, "prisma_bonus": 0 },
+        
+        { "text": "Kamu lupa menyalakan mikrofon (Muted) selama 5 menit awal stream. Chat panik.", "log_text": "Lupa Unmute Mic (Mime Stream).", "type": "negative", "emoji": "🎤", "hype_impact": -20, "exp_bonus": 0, "prisma_bonus": 0 },
+        { "text": "Lupa menyembunyikan layar saat memasukkan password! Hampir saja doxing diri sendiri.", "log_text": "HAMPIR BOCOR PASSWORD!", "type": "negative_spike", "emoji": "⚠", "hype_impact": -30, "viewer_drop_percentage": 0.2 }
+    ],
+    "chat_data": {
+        "usernames": [
+            "RamenLover99", "OnigiriOni", "TakoTaco", "NekoNyan", "PochiPaws", "GuraFan_01",
+            "KFP_Employee", "Deadbeat_Art", "Chumbud", "Sanallite", "Hoshiyomi_ID", "InvestiGator",
+            "Takodachi", "Zomrade", "Brat", "Sapling", "Teamate", "Irystocrat", "Kroniie",
+            "Kaela_Simp", "Kobo_Enjoyer", "Zeta_Cat", "Peanut", "VesFren", "Mocchadachi",
+            "PawangBiawak", "TukangCilok", "SobatAmbyar", "WibuBiasa", "KentangGoreng", "KopiHitam",
+            "SleepyHead", "NotABot", "JustAPasserby", "Fubuzilla", "Koronesuki", "Elfriend",
+            "Pekoland_Moona", "Reine_Ch", "OllieGrave", "AnyaMelfissa_Art", "BocilKematian",
+            "BaelzRat", "FaunaSapling", "Mumei_Hoot", "Kronii_Warden", "LordAbeel", "ClipperCepat"
+        ],
+        "chat_templates": {
+            "positive_spike": [
+                "POGGERS!", "LET'S GOOOOOO!", "OMG THE HYPE IS REAL!", "RAID RAID RAID!",
+                "APAAN NIH RAME BANGET?!", "CHAT MEMBLUDAK!", "Halo para raiders!", "WKWKWK GOKIL PARAH",
+                "SHEEEEEESH", "VIRAL INI MAH FIX!", "GILA GILA GILA", "GASKEUN!",
+                "CHATNYA JALAN CEPET BANGET", "AUTO CLIP!", "MASUK TRENDING INI!", "PECah BANGET!",
+                "TERIMA KASih RAIDNYA!", "HYPE TRAIN DIMULAI!"
+            ],
+            "positive": [
+                "Wooo!", "Nice play!", "Keren banget!", "Donasinya deres amat bang", "Terharu T_T",
+                "Jago bener dah", "GGWP!", "Mantap jiwa!", "Sehat-sehat terus ya oshi!",
+                "KERJA BAGUS!", "Gini dong, kan enak diliat", "Makasih hiburannya hari ini!", "BIG BRAIN MOMENT",
+                "Makasih SC-nya Sultan!", "Nah kan, hoki!", "Lope lope buat kamu <3",
+                "Mood booster banget streamnya", "Akhirnya, setelah sekian purnama..."
+            ],
+            "negative_spike": [
+                "F", "YABE", "BRUH MOMENT", "Koneksinya kentang...", "AWOKWOKWOK PANIK",
+                "INNALILLAHI...", "Astagaaa...", "Sabar ya kak, ambil napas dulu", "KOK BISA?!",
+                "JUMPSCARE ANJIR", "NOOOOOOOOOO", "Yah, DC...", "UDAHLAH KELAR",
+                "GAME-NYA NGE-BUG tuh", "Mati lampu ya?", "Sinyal oh sinyal..."
+            ],
+            "negative": [
+                "OMEGALUL", "Garamnya berasa sampe sini wkwk", "Jangan spoiler woi!", "Yeee ampas gachanya",
+                "Ada troll tuh, mod mana mod?", "Awokwokwok keseleo lidah", "Kasian kena chargeback",
+                "Skill issue kayaknya nih", "Udah dibilangin jangan kesitu...", "Coba dengerin kata chat sekali-kali",
+                "Gitu doang kok panik?", "Zonk lagi dong, top up lagi gih", "KEKWait", "Dah bang jangan dipaksa, istirahat dulu"
+            ],
+            "neutral": [
+                "lol", "wkwk", "Halo!", "Kucingnya lucu banget!", "Semangat ya streamnya!",
+                "Udah makan belum kak?", "Relateable banget ceritanya", "Hadir nyimak", "Hai semuaa",
+                "Numpang nimbrung ya", "Bahas apaan nih?", "Bentar, ambil cemilan dulu",
+                "Ohh gitu ceritanya...", "Baru tau aku info ini", "Malem guys", "Pagi!", "Suaranya aman kok",
+                "Hmm, menarik", "Noted", "Background-nya bagus, baru ya?", "Lanjut!", "Jangan lupa minum",
+                "OOT dikit boleh gak?", "Jadi inget pengalamanku...", "Aku nonton sambil kerja nih, semangat!"
+            ],
+            "collab_reaction": [
+                "TEE TEE BANGET!", "Kalian pacaran ya?", "Cieeee", "Kok gemes sih kalian",
+                "SHIP IT!", "Best duo ever", "Komedi putar wkwkwk", "Duh suaranya tabrakan",
+                "Mic-nya benerin bang", "Echo woi echo", "Partnernya lucu banget",
+                "Kapan nikah?", "Besok collab lagi pliss!"
+            ],
+            "asmr_reaction": [
+                "TSKR (Tasukaru/Terima kasih)", "Tidur nyenyak malam ini", "Geli-geli sedap",
+                "Kanan... Kiri... Kanan...", "Suaranya lembut banget", "Langsung ngantuk",
+                "Headset mahal terbayar lunas", "Jangan kenceng-kenceng kak kaget", "Zzzzz..."
+            ]
+        }
+    }
+}

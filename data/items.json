@@ -1,0 +1,928 @@
+[
+    {
+        "id": 301,
+        "name": "Cinder Helm",
+        "type": "helm",
+        "description": "Helm yang membara dengan panas konstan, dirancang untuk melemahkan musuh secara perlahan.",
+        "rarity": "Rare",
+        "price": 3500,
+        "stat_boost": {
+            "hp": 40,
+            "atk": 15
+        }
+    },
+    {
+        "id": 302,
+        "name": "Toxic Visor",
+        "type": "helm",
+        "description": "Visor yang dialiri racun alkimia, setiap serangan memiliki potensi untuk merusak dari dalam.",
+        "rarity": "Epic",
+        "price": 9500,
+        "stat_boost": {
+            "hp": 65,
+            "atk": 25,
+            "crit_rate": 0.04
+        }
+    },
+    {
+        "id": 303,
+        "name": "Ashen Crown",
+        "type": "helm",
+        "description": "Mahkota yang terbuat dari abu abadi, menyebarkan kutukan yang menggerogoti vitalitas lawan.",
+        "rarity": "Legendary",
+        "price": 25000,
+        "stat_boost": {
+            "hp": 90,
+            "atk": 40,
+            "crit_rate": 0.06
+        }
+    },
+    {
+        "id": 304,
+        "name": "Aegis Helm",
+        "type": "helm",
+        "description": "Helm tebal yang memprioritaskan pertahanan di atas segalanya.",
+        "rarity": "Rare",
+        "price": 3500,
+        "stat_boost": {
+            "hp": 60,
+            "def": 25,
+            "spd": -3
+        }
+    },
+    {
+        "id": 305,
+        "name": "Stoneguard Helm",
+        "type": "helm",
+        "description": "Ditempa dari batu granit, helm ini menawarkan perlindungan yang tak tergoyahkan.",
+        "rarity": "Epic",
+        "price": 9500,
+        "stat_boost": {
+            "hp": 100,
+            "def": 40,
+            "spd": -5
+        }
+    },
+    {
+        "id": 306,
+        "name": "Iron Bastion",
+        "type": "helm",
+        "description": "Sebuah benteng pertahanan untuk kepala, mampu menahan serangan paling dahsyat sekalipun.",
+        "rarity": "Legendary",
+        "price": 25000,
+        "stat_boost": {
+            "hp": 150,
+            "def": 60,
+            "spd": -8
+        }
+    },
+    {
+        "id": 307,
+        "name": "Rage Helm",
+        "type": "helm",
+        "description": "Helm bertanduk yang menyalurkan amarah pemakainya menjadi kekuatan serangan.",
+        "rarity": "Rare",
+        "price": 3600,
+        "stat_boost": {
+            "atk": 20,
+            "crit_rate": 0.06,
+            "def": -8
+        }
+    },
+    {
+        "id": 308,
+        "name": "Crimson Fang",
+        "type": "helm",
+        "description": "Helm yang dihiasi taring berlumuran darah, meningkatkan hasrat untuk menyerang.",
+        "rarity": "Epic",
+        "price": 9800,
+        "stat_boost": {
+            "atk": 35,
+            "crit_rate": 0.08,
+            "def": -12
+        }
+    },
+    {
+        "id": 309,
+        "name": "Warcry Helm",
+        "type": "helm",
+        "description": "Teriakan perang bergema abadi dari helm ini, membangkitkan kekuatan ofensif tertinggi.",
+        "rarity": "Legendary",
+        "price": 26000,
+        "stat_boost": {
+            "atk": 50,
+            "crit_rate": 0.10,
+            "def": -18
+        }
+    },
+    {
+        "id": 310,
+        "name": "Healing Circlet",
+        "type": "helm",
+        "description": "Lingkaran kepala yang memancarkan aura menenangkan dan memperkuat sihir penyembuhan.",
+        "rarity": "Rare",
+        "price": 3200,
+        "stat_boost": {
+            "hp": 50,
+            "def": 18
+        }
+    },
+    {
+        "id": 311,
+        "name": "Guiding Halo",
+        "type": "helm",
+        "description": "Cahaya suci dari halo ini tidak hanya melindungi, tetapi juga meningkatkan efektivitas pemulihan.",
+        "rarity": "Epic",
+        "price": 9000,
+        "stat_boost": {
+            "hp": 80,
+            "def": 30
+        }
+    },
+    {
+        "id": 312,
+        "name": "Serene Visage",
+        "type": "helm",
+        "description": "Topeng berwajah tenang yang memberikan kekuatan penyembuhan dan perlindungan ilahi.",
+        "rarity": "Legendary",
+        "price": 24000,
+        "stat_boost": {
+            "hp": 120,
+            "def": 45
+        }
+    },
+    {
+        "id": 313,
+        "name": "Thunder Helm",
+        "type": "helm",
+        "description": "Mengumpulkan energi statis dari udara untuk melepaskan serangan kejutan yang kuat.",
+        "rarity": "Rare",
+        "price": 3800,
+        "stat_boost": {
+            "atk": 10,
+            "spd": 5,
+            "crit_damage": 0.15
+        }
+    },
+    {
+        "id": 314,
+        "name": "Nova Crown",
+        "type": "helm",
+        "description": "Mahkota yang bersinar seperti bintang yang akan meledak, berfokus pada satu serangan masif.",
+        "rarity": "Epic",
+        "price": 10500,
+        "stat_boost": {
+            "atk": 18,
+            "spd": 8,
+            "crit_damage": 0.25
+        }
+    },
+    {
+        "id": 315,
+        "name": "Inferno Helm",
+        "type": "helm",
+        "description": "Api neraka terkandung di dalamnya, siap meledak dalam satu serangan yang menghancurkan.",
+        "rarity": "Legendary",
+        "price": 27000,
+        "stat_boost": {
+            "atk": 30,
+            "spd": 12,
+            "crit_damage": 0.40
+        }
+    },
+    {
+        "id": 316,
+        "name": "Frostbound Helm",
+        "type": "helm",
+        "description": "Aura dingin dari helm ini memperlambat gerakan musuh yang mendekat.",
+        "rarity": "Rare",
+        "price": 3200,
+        "stat_boost": {
+            "hp": 40,
+            "def": 15,
+            "spd": 4
+        }
+    },
+    {
+        "id": 317,
+        "name": "Shadow Mask",
+        "type": "helm",
+        "description": "Topeng yang memungkinkan pemakainya bergerak di antara bayangan, menyulitkan lawan untuk menyerang.",
+        "rarity": "Epic",
+        "price": 9000,
+        "stat_boost": {
+            "hp": 60,
+            "def": 22,
+            "spd": 10
+        }
+    },
+    {
+        "id": 318,
+        "name": "Chains of Will",
+        "type": "helm",
+        "description": "Rantai ilusi yang mengikat kehendak lawan, membuat mereka lebih rentan terhadap efek status.",
+        "rarity": "Legendary",
+        "price": 24000,
+        "stat_boost": {
+            "hp": 85,
+            "def": 35,
+            "spd": 15
+        }
+    },
+    {
+        "id": 319,
+        "name": "Blightmail",
+        "type": "armor",
+        "description": "Zirah yang mengeluarkan wabah penyakit, merusak siapa saja yang menyentuhnya.",
+        "rarity": "Rare",
+        "price": 4500,
+        "stat_boost": {
+            "hp": 60,
+            "atk": 18,
+            "def": 25
+        }
+    },
+    {
+        "id": 320,
+        "name": "Emberplate",
+        "type": "armor",
+        "description": "Lempengan zirah yang terus membara, meninggalkan luka bakar pada penyerang.",
+        "rarity": "Epic",
+        "price": 12000,
+        "stat_boost": {
+            "hp": 90,
+            "atk": 28,
+            "def": 40
+        }
+    },
+    {
+        "id": 321,
+        "name": "Venom Carapace",
+        "type": "armor",
+        "description": "Cangkang keras yang dilapisi racun mematikan dari monster purba.",
+        "rarity": "Legendary",
+        "price": 30000,
+        "stat_boost": {
+            "hp": 130,
+            "atk": 42,
+            "def": 60
+        }
+    },
+    {
+        "id": 322,
+        "name": "Bulwark Plate",
+        "type": "armor",
+        "description": "Zirah kokoh yang menjadi benteng berjalan bagi pemakainya.",
+        "rarity": "Rare",
+        "price": 4500,
+        "stat_boost": {
+            "hp": 90,
+            "def": 35,
+            "atk": -8
+        }
+    },
+    {
+        "id": 323,
+        "name": "Titan Guard",
+        "type": "armor",
+        "description": "Zirah sebesar titan, dirancang untuk menahan kiamat.",
+        "rarity": "Epic",
+        "price": 12000,
+        "stat_boost": {
+            "hp": 140,
+            "def": 55,
+            "atk": -12
+        }
+    },
+    {
+        "id": 324,
+        "name": "Granite Shell",
+        "type": "armor",
+        "description": "Permukaannya sekeras dan setangguh gunung itu sendiri.",
+        "rarity": "Legendary",
+        "price": 30000,
+        "stat_boost": {
+            "hp": 200,
+            "def": 80,
+            "atk": -20
+        }
+    },
+    {
+        "id": 325,
+        "name": "Berserker Vest",
+        "type": "armor",
+        "description": "Rompi yang mengorbankan perlindungan demi kekuatan serangan membabi buta.",
+        "rarity": "Rare",
+        "price": 4600,
+        "stat_boost": {
+            "atk": 28,
+            "hp": 30,
+            "def": -15
+        }
+    },
+    {
+        "id": 326,
+        "name": "Bloodfury Armor",
+        "type": "armor",
+        "description": "Zirah yang meminum darah lawan untuk memperkuat serangan berikutnya.",
+        "rarity": "Epic",
+        "price": 12500,
+        "stat_boost": {
+            "atk": 45,
+            "hp": 50,
+            "def": -22
+        }
+    },
+    {
+        "id": 327,
+        "name": "Warpath Mail",
+        "type": "armor",
+        "description": "Setiap goresan pada zirah ini adalah bukti dari jalan perang tanpa akhir.",
+        "rarity": "Legendary",
+        "price": 32000,
+        "stat_boost": {
+            "atk": 65,
+            "hp": 70,
+            "def": -30
+        }
+    },
+    {
+        "id": 328,
+        "name": "Harmony Robe",
+        "type": "armor",
+        "description": "Jubah yang menyeimbangkan energi spiritual, meningkatkan kekuatan pemulihan.",
+        "rarity": "Rare",
+        "price": 4200,
+        "stat_boost": {
+            "hp": 70,
+            "def": 28
+        }
+    },
+    {
+        "id": 329,
+        "name": "Sanctum Vestment",
+        "type": "armor",
+        "description": "Pakaian suci yang memberikan perlindungan dan meningkatkan berkat penyembuhan.",
+        "rarity": "Epic",
+        "price": 11000,
+        "stat_boost": {
+            "hp": 110,
+            "def": 42
+        }
+    },
+    {
+        "id": 330,
+        "name": "Blessed Aegis",
+        "type": "armor",
+        "description": "Perlindungan ilahi yang diberkati, mampu menyembuhkan luka sambil menahan serangan.",
+        "rarity": "Legendary",
+        "price": 28000,
+        "stat_boost": {
+            "hp": 160,
+            "def": 65
+        }
+    },
+    {
+        "id": 331,
+        "name": "Stormbreaker Armor",
+        "type": "armor",
+        "description": "Zirah yang ditempa di tengah badai, siap melepaskan energi destruktif.",
+        "rarity": "Rare",
+        "price": 4800,
+        "stat_boost": {
+            "atk": 22,
+            "crit_damage": 0.20,
+            "hp": 35
+        }
+    },
+    {
+        "id": 332,
+        "name": "Solar Flare Plate",
+        "type": "armor",
+        "description": "Menyerap energi matahari untuk dilepaskan dalam satu ledakan dahsyat.",
+        "rarity": "Epic",
+        "price": 13000,
+        "stat_boost": {
+            "atk": 35,
+            "crit_damage": 0.35,
+            "hp": 55
+        }
+    },
+    {
+        "id": 333,
+        "name": "Infernal Husk",
+        "type": "armor",
+        "description": "Cangkang dari iblis api, menyimpan kekuatan ledakan nuklir.",
+        "rarity": "Legendary",
+        "price": 33000,
+        "stat_boost": {
+            "atk": 50,
+            "crit_damage": 0.50,
+            "hp": 80
+        }
+    },
+    {
+        "id": 334,
+        "name": "Glacier Plate",
+        "type": "armor",
+        "description": "Zirah es abadi yang membekukan penyerang, memperlambat gerakan mereka.",
+        "rarity": "Rare",
+        "price": 4400,
+        "stat_boost": {
+            "hp": 75,
+            "def": 30,
+            "spd": 4
+        }
+    },
+    {
+        "id": 335,
+        "name": "Phantom Shroud",
+        "type": "armor",
+        "description": "Jubah tembus pandang yang membuat pemakainya sulit untuk ditargetkan.",
+        "rarity": "Epic",
+        "price": 11500,
+        "stat_boost": {
+            "hp": 100,
+            "def": 45,
+            "spd": 10
+        }
+    },
+    {
+        "id": 336,
+        "name": "Chainscar Armor",
+        "type": "armor",
+        "description": "Zirah yang terbuat dari rantai terkutuk, mengikat musuh dalam penderitaan.",
+        "rarity": "Legendary",
+        "price": 29000,
+        "stat_boost": {
+            "hp": 140,
+            "def": 65,
+            "spd": 15
+        }
+    },
+    {
+        "id": 337,
+        "name": "Scorched Greaves",
+        "type": "pants",
+        "description": "Celana yang dihanguskan oleh api, meninggalkan jejak terbakar.",
+        "rarity": "Rare",
+        "price": 3000,
+        "stat_boost": { "hp": 30, "atk": 12, "def": 10 }
+    },
+    {
+        "id": 338,
+        "name": "Toxic Leggings",
+        "type": "pants",
+        "description": "Celana ketat yang dilapisi racun kontak.",
+        "rarity": "Epic",
+        "price": 8500,
+        "stat_boost": { "hp": 50, "atk": 20, "def": 15 }
+    },
+    {
+        "id": 339,
+        "name": "Ashwalk Trousers",
+        "type": "pants",
+        "description": "Setiap langkah meninggalkan jejak abu yang mengutuk tanah.",
+        "rarity": "Legendary",
+        "price": 22000,
+        "stat_boost": { "hp": 75, "atk": 32, "def": 25 }
+    },
+    {
+        "id": 340,
+        "name": "Stonewall Greaves",
+        "type": "pants",
+        "description": "Pelindung kaki sekokoh dinding batu.",
+        "rarity": "Rare",
+        "price": 3000,
+        "stat_boost": { "hp": 50, "def": 22, "spd": -2 }
+    },
+    {
+        "id": 341,
+        "name": "Ironstride Pants",
+        "type": "pants",
+        "description": "Memberikan kuda-kuda yang kuat dan pertahanan yang solid.",
+        "rarity": "Epic",
+        "price": 8500,
+        "stat_boost": { "hp": 80, "def": 35, "spd": -4 }
+    },
+    {
+        "id": 342,
+        "name": "Guardian Legplate",
+        "type": "pants",
+        "description": "Lempeng kaki yang dirancang untuk melindungi sang penjaga.",
+        "rarity": "Legendary",
+        "price": 22000,
+        "stat_boost": { "hp": 120, "def": 52, "spd": -6 }
+    },
+    {
+        "id": 343,
+        "name": "Ravager Greaves",
+        "type": "pants",
+        "description": "Pelindung kaki ringan untuk para perusak.",
+        "rarity": "Rare",
+        "price": 3100,
+        "stat_boost": { "atk": 18, "crit_rate": 0.03, "def": -5 }
+    },
+    {
+        "id": 344,
+        "name": "Predator Leggings",
+        "type": "pants",
+        "description": "Dirancang untuk berburu mangsa tanpa ampun.",
+        "rarity": "Epic",
+        "price": 8800,
+        "stat_boost": { "atk": 30, "crit_rate": 0.05, "def": -8 }
+    },
+    {
+        "id": 345,
+        "name": "Warlord Trousers",
+        "type": "pants",
+        "description": "Celana yang dikenakan oleh panglima perang legendaris.",
+        "rarity": "Legendary",
+        "price": 23000,
+        "stat_boost": { "atk": 45, "crit_rate": 0.07, "def": -12 }
+    },
+    {
+        "id": 346,
+        "name": "Grace Pants",
+        "type": "pants",
+        "description": "Celana yang diberkati, memperkuat aura penyembuhan.",
+        "rarity": "Rare",
+        "price": 2800,
+        "stat_boost": { "hp": 40, "def": 12 }
+    },
+    {
+        "id": 347,
+        "name": "Caretaker Greaves",
+        "type": "pants",
+        "description": "Celana pelindung untuk mereka yang merawat sekutunya di medan perang.",
+        "rarity": "Epic",
+        "price": 8200,
+        "stat_boost": { "hp": 65, "def": 22 }
+    },
+    {
+        "id": 348,
+        "name": "Vital Legwraps",
+        "type": "pants",
+        "description": "Kain pembalut yang dialiri energi kehidupan.",
+        "rarity": "Legendary",
+        "price": 21000,
+        "stat_boost": { "hp": 95, "def": 35 }
+    },
+    {
+        "id": 349,
+        "name": "Thunderstride Pants",
+        "type": "pants",
+        "description": "Setiap langkahnya menghasilkan percikan listrik kecil.",
+        "rarity": "Rare",
+        "price": 3200,
+        "stat_boost": { "atk": 8, "spd": 6, "crit_damage": 0.10 }
+    },
+    {
+        "id": 350,
+        "name": "Volcanic Leggings",
+        "type": "pants",
+        "description": "Menyimpan panas magma untuk serangan eksplosif.",
+        "rarity": "Epic",
+        "price": 9000,
+        "stat_boost": { "atk": 15, "spd": 9, "crit_damage": 0.20 }
+    },
+    {
+        "id": 351,
+        "name": "Nova Greaves",
+        "type": "pants",
+        "description": "Pelindung kaki yang bersinar dengan kekuatan kosmik.",
+        "rarity": "Legendary",
+        "price": 24000,
+        "stat_boost": { "atk": 25, "spd": 12, "crit_damage": 0.30 }
+    },
+    {
+        "id": 352,
+        "name": "Froststep Pants",
+        "type": "pants",
+        "description": "Meninggalkan jejak es yang dapat menjebak lawan.",
+        "rarity": "Rare",
+        "price": 2800,
+        "stat_boost": { "def": 12, "spd": 5 }
+    },
+    {
+        "id": 353,
+        "name": "Shadowbind Trousers",
+        "type": "pants",
+        "description": "Bayangan dari celana ini dapat mengikat pergerakan musuh.",
+        "rarity": "Epic",
+        "price": 8200,
+        "stat_boost": { "def": 20, "spd": 10 }
+    },
+    {
+        "id": 354,
+        "name": "Chainsprint Greaves",
+        "type": "pants",
+        "description": "Bergerak secepat kilat sambil memasang perangkap tak terlihat.",
+        "rarity": "Legendary",
+        "price": 21000,
+        "stat_boost": { "def": 30, "spd": 15 }
+    },
+    {
+        "id": 355,
+        "name": "Embersteps",
+        "type": "shoes",
+        "description": "Sepatu bot yang meninggalkan jejak bara api.",
+        "rarity": "Rare",
+        "price": 2800,
+        "stat_boost": { "hp": 15, "atk": 8, "spd": 6 }
+    },
+    {
+        "id": 356,
+        "name": "Venom Boots",
+        "type": "shoes",
+        "description": "Setiap tendangan dapat menyuntikkan racun.",
+        "rarity": "Epic",
+        "price": 7500,
+        "stat_boost": { "hp": 25, "atk": 12, "spd": 10 }
+    },
+    {
+        "id": 357,
+        "name": "Cinder Walkers",
+        "type": "shoes",
+        "description": "Berjalan di atas api seolah itu adalah jalan setapak biasa.",
+        "rarity": "Legendary",
+        "price": 20000,
+        "stat_boost": { "hp": 40, "atk": 20, "spd": 16 }
+    },
+    {
+        "id": 358,
+        "name": "Bastion Boots",
+        "type": "shoes",
+        "description": "Sepatu bot berat yang menanamkan kaki Anda dengan kokoh di tanah.",
+        "rarity": "Rare",
+        "price": 2800,
+        "stat_boost": { "hp": 40, "def": 18, "spd": -3 }
+    },
+    {
+        "id": 359,
+        "name": "Stoneforge Greaves",
+        "type": "shoes",
+        "description": "Ditempa di jantung gunung, memberikan stabilitas luar biasa.",
+        "rarity": "Epic",
+        "price": 7500,
+        "stat_boost": { "hp": 65, "def": 30, "spd": -5 }
+    },
+    {
+        "id": 360,
+        "name": "Ironmarch Boots",
+        "type": "shoes",
+        "description": "Sepatu bot para legiun, tak tergoyahkan dan tak kenal lelah.",
+        "rarity": "Legendary",
+        "price": 20000,
+        "stat_boost": { "hp": 95, "def": 45, "spd": -8 }
+    },
+    {
+        "id": 361,
+        "name": "Fangstride",
+        "type": "shoes",
+        "description": "Sepatu bot ringan yang dibuat untuk mengejar mangsa.",
+        "rarity": "Rare",
+        "price": 2900,
+        "stat_boost": { "atk": 12, "spd": 10, "def": -4 }
+    },
+    {
+        "id": 362,
+        "name": "Rage Treads",
+        "type": "shoes",
+        "description": "Mengubah amarah menjadi kecepatan dan kekuatan.",
+        "rarity": "Epic",
+        "price": 7800,
+        "stat_boost": { "atk": 20, "spd": 16, "def": -6 }
+    },
+    {
+        "id": 363,
+        "name": "Warstorm Boots",
+        "type": "shoes",
+        "description": "Membawa badai perang ke mana pun Anda melangkah.",
+        "rarity": "Legendary",
+        "price": 21000,
+        "stat_boost": { "atk": 30, "spd": 24, "def": -10 }
+    },
+    {
+        "id": 364,
+        "name": "Sanctuary Sandals",
+        "type": "shoes",
+        "description": "Sandal yang diberkati, memberikan kecepatan untuk menjangkau sekutu yang terluka.",
+        "rarity": "Rare",
+        "price": 2600,
+        "stat_boost": { "hp": 25, "def": 10, "spd": 10 }
+    },
+    {
+        "id": 365,
+        "name": "Kindred Boots",
+        "type": "shoes",
+        "description": "Sepatu bot yang terhubung dengan roh penjaga, melindungi dan menyembuhkan.",
+        "rarity": "Epic",
+        "price": 7200,
+        "stat_boost": { "hp": 40, "def": 18, "spd": 15 }
+    },
+    {
+        "id": 366,
+        "name": "Vital Step",
+        "type": "shoes",
+        "description": "Setiap langkah memulihkan sebagian kecil dari vitalitas pemakainya.",
+        "rarity": "Legendary",
+        "price": 19500,
+        "stat_boost": { "hp": 60, "def": 28, "spd": 22 }
+    },
+    {
+        "id": 367,
+        "name": "Thunder Dashers",
+        "type": "shoes",
+        "description": "Berlari secepat kilat untuk serangan mendadak.",
+        "rarity": "Rare",
+        "price": 3000,
+        "stat_boost": { "atk": 5, "spd": 12, "crit_damage": 0.10 }
+    },
+    {
+        "id": 368,
+        "name": "Solar Boots",
+        "type": "shoes",
+        "description": "Mengambil energi dari matahari untuk meningkatkan kecepatan ledakan.",
+        "rarity": "Epic",
+        "price": 8000,
+        "stat_boost": { "atk": 8, "spd": 18, "crit_damage": 0.20 }
+    },
+    {
+        "id": 369,
+        "name": "Inferno Striders",
+        "type": "shoes",
+        "description": "Meninggalkan jejak api yang meledak di belakang Anda.",
+        "rarity": "Legendary",
+        "price": 22000,
+        "stat_boost": { "atk": 15, "spd": 25, "crit_damage": 0.30 }
+    },
+    {
+        "id": 370,
+        "name": "Froststep Boots",
+        "type": "shoes",
+        "description": "Membuat Anda meluncur di atas es, sulit untuk dikejar.",
+        "rarity": "Rare",
+        "price": 2600,
+        "stat_boost": { "def": 12, "spd": 10 }
+    },
+    {
+        "id": 371,
+        "name": "Shadowbind Walkers",
+        "type": "shoes",
+        "description": "Sepatu bot yang memungkinkan Anda untuk melangkah melalui bayangan.",
+        "rarity": "Epic",
+        "price": 7200,
+        "stat_boost": { "def": 20, "spd": 16 }
+    },
+    {
+        "id": 372,
+        "name": "Chainbreaker Boots",
+        "type": "shoes",
+        "description": "Memungkinkan Anda untuk melepaskan diri dari segala bentuk kendali.",
+        "rarity": "Legendary",
+        "price": 19500,
+        "stat_boost": { "def": 30, "spd": 24 }
+    },
+
+    {
+    "id": "seed_wheat",
+    "name": "Bibit Gandum",
+    "type": "item",
+    "price": 20,
+    "description": "Bibit gandum murah meriah. Cocok untuk pemula."
+  },
+  {
+    "id": "wheat",
+    "name": "Gandum",
+    "type": "item",
+    "price": 30,
+    "description": "Gandum emas hasil panen. Bahan dasar roti."
+  },
+  {
+    "id": "seed_potato",
+    "name": "Bibit Kentang",
+    "type": "item",
+    "price": 50,
+    "description": "Bibit kentang. Tumbuh di dalam tanah."
+  },
+  {
+    "id": "potato",
+    "name": "Kentang",
+    "type": "item",
+    "price": 80,
+    "description": "Kentang besar dan bersih. Enak digoreng."
+  },
+  {
+    "id": "seed_tomato",
+    "name": "Bibit Tomat",
+    "type": "item",
+    "price": 80,
+    "description": "Bibit tomat merah segar."
+  },
+  {
+    "id": "tomato",
+    "name": "Tomat",
+    "type": "item",
+    "price": 130,
+    "description": "Tomat merah merona. Penuh vitamin."
+  },
+  {
+    "id": "seed_corn",
+    "name": "Bibit Jagung",
+    "type": "item",
+    "price": 100,
+    "description": "Bibit jagung manis."
+  },
+  {
+    "id": "corn",
+    "name": "Jagung",
+    "type": "item",
+    "price": 160,
+    "description": "Jagung manis hasil panen."
+  },
+  {
+    "id": "seed_chili",
+    "name": "Bibit Cabai",
+    "type": "item",
+    "price": 150,
+    "description": "Bibit cabai rawit pedas."
+  },
+  {
+    "id": "chili",
+    "name": "Cabai Rawit",
+    "type": "item",
+    "price": 250,
+    "description": "Sangat pedas! Harganya fluktuatif di pasar."
+  },
+  {
+    "id": "seed_carrot",
+    "name": "Bibit Wortel",
+    "type": "item",
+    "price": 200,
+    "description": "Bibit wortel oranye."
+  },
+  {
+    "id": "carrot",
+    "name": "Wortel",
+    "type": "item",
+    "price": 320,
+    "description": "Wortel segar favorit kelinci."
+  },
+  {
+    "id": "seed_strawberry",
+    "name": "Bibit Stroberi",
+    "type": "item",
+    "price": 350,
+    "description": "Bibit buah manis dataran tinggi."
+  },
+  {
+    "id": "strawberry",
+    "name": "Stroberi",
+    "type": "item",
+    "price": 550,
+    "description": "Buah merah berbintik. Mahal dan lezat."
+  },
+  {
+    "id": "seed_pumpkin",
+    "name": "Bibit Labu",
+    "type": "item",
+    "price": 500,
+    "description": "Bibit labu Halloween."
+  },
+  {
+    "id": "pumpkin",
+    "name": "Labu Raksasa",
+    "type": "item",
+    "price": 800,
+    "description": "Labu besar yang berat. Laku mahal."
+  },
+  {
+    "id": "seed_watermelon",
+    "name": "Bibit Semangka",
+    "type": "item",
+    "price": 800,
+    "description": "Bibit semangka non-biji."
+  },
+  {
+    "id": "watermelon",
+    "name": "Semangka",
+    "type": "item",
+    "price": 1350,
+    "description": "Buah besar penuh air. Segar!"
+  },
+  {
+    "id": "seed_mystic",
+    "name": "Bibit Mistik",
+    "type": "item",
+    "price": 5000,
+    "description": "Bibit tanaman langka yang bersinar."
+  },
+  {
+    "id": "mystic_flower",
+    "name": "Bunga Mistik",
+    "type": "item",
+    "price": 8000,
+    "description": "Bunga legendaris yang memancarkan mana."
+  }
+]

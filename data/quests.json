@@ -1,0 +1,116 @@
+{
+    "daily": [
+        {
+            "id": "DAILY_PVE_WINS_1",
+            "type": "PVE_WIN",
+            "title": "Pemanasan Harian",
+            "description": "Menangkan 2 pertarungan PvE.",
+            "target": 2,
+            "rewards": {
+                "exp": 150,
+                "prisma": 100
+            }
+        },
+        {
+            "id": "DAILY_PVP_PARTICIPATE_1",
+            "type": "PVP_PARTICIPATE",
+            "title": "Adu Tanding",
+            "description": "Selesaikan 2 pertarungan PvP (menang atau kalah).",
+            "target": 2,
+            "rewards": {
+                "exp": 100,
+                "prisma": 120
+            }
+        },
+        {
+            "id": "DAILY_USE_SKILL_1",
+            "type": "USE_SKILL",
+            "title": "Perapal Mantra",
+            "description": "Gunakan 10 skill dalam pertarungan.",
+            "target": 10,
+            "rewards": {
+                "exp": 75,
+                "prisma": 75
+            }
+        },
+        {
+            "id": "DAILY_COMPLETE_STREAM_1",
+            "type": "COMPLETE_STREAM",
+            "title": "On Air!",
+            "description": "Selesaikan 1 sesi streaming.",
+            "target": 1,
+            "rewards": {
+                "exp": 50,
+                "prisma": 150
+            }
+        }
+    ],
+    "weekly": [
+        {
+            "id": "WEEKLY_PVE_WINS_1",
+            "type": "PVE_WIN",
+            "title": "Pemburu Monster Mingguan",
+            "description": "Menangkan 15 pertarungan PvE.",
+            "target": 15,
+            "rewards": {
+                "exp": 500,
+                "prisma": 600
+            }
+        },
+        {
+            "id": "WEEKLY_PVP_WINS_1",
+            "type": "PVP_WIN",
+            "title": "Dominasi Arena",
+            "description": "Menangkan 7 pertarungan PvP.",
+            "target": 7,
+            "rewards": {
+                "exp": 700,
+                "prisma": 900
+            }
+        },
+        {
+            "id": "WEEKLY_LAND_CRIT_1",
+            "type": "LAND_CRIT",
+            "title": "Pencari Titik Lemah",
+            "description": "Lakukan 25 serangan kritikal.",
+            "target": 25,
+            "rewards": {
+                "exp": 500,
+                "prisma": 500
+            }
+        },
+        {
+            "id": "WEEKLY_EARN_PRISMA_1",
+            "type": "EARN_PRISMA",
+            "title": "Mesin Pencetak Uang",
+            "description": "Kumpulkan total 2500 Prisma.",
+            "target": 2500,
+            "rewards": {
+                "exp": 300,
+                "prisma": 300
+            }
+        },
+        {
+            "id": "WEEKLY_WIN_TOURNAMENT_MATCH_1",
+            "type": "WIN_TOURNAMENT_MATCH",
+            "title": "Pejuang Turnamen",
+            "description": "Menangkan 1 pertandingan dalam turnamen.",
+            "target": 1,
+            "rewards": {
+                "exp": 2000,
+                "prisma": 1500
+            }
+        },
+        {
+            "id": "WEEKLY_BECOME_CHAMPION_1",
+            "type": "BECOME_CHAMPION",
+            "title": "Sang Juara",
+            "description": "Menjadi juara di sebuah turnamen.",
+            "target": 1,
+            "rewards": {
+                "exp": 4000,
+                "prisma": 3000
+            }
+        }
+    ]
+}

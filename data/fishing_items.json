@@ -1,0 +1,290 @@
+[
+  {
+    "id": "rod_basic",
+    "name": "Kayu Rapuh",
+    "type": "rod",
+    "price": 0,
+    "luck": 0,
+    "time_bonus": 0.0,
+    "description": "Joran pemula dari ranting pohon. Hanya bisa menangkap ikan biasa."
+  },
+  {
+    "id": "rod_bamboo",
+    "name": "Bamboo Rod",
+    "type": "rod",
+    "price": 800,
+    "luck": 5,
+    "time_bonus": 0.1,
+    "description": "Joran bambu yang fleksibel. Sedikit lebih baik dari kayu biasa."
+  },
+  {
+    "id": "rod_fiber",
+    "name": "Fiberglass Rod",
+    "type": "rod",
+    "price": 2500,
+    "luck": 12,
+    "time_bonus": 0.1,
+    "description": "Serat kaca tahan lama. Membuka peluang menangkap ikan Epic."
+  },
+  {
+    "id": "rod_graphite",
+    "name": "Reinforced Graphite",
+    "type": "rod",
+    "price": 3800,
+    "luck": 15,
+    "time_bonus": 0.15,
+    "description": "Campuran grafit yang diperkuat. Pilihan populer pemancing harian."
+  },
+  {
+    "id": "rod_steel",
+    "name": "Stainless Steel",
+    "type": "rod",
+    "price": 5000,
+    "luck": 18,
+    "time_bonus": 0.1,
+    "description": "Terbuat dari baja anti karat. Berat tapi kokoh."
+  },
+  {
+    "id": "rod_coral",
+    "name": "Coral Reef Stick",
+    "type": "rod",
+    "price": 6800,
+    "luck": 22,
+    "time_bonus": 0.1,
+    "description": "Dibuat dari karang keras. Memiliki afinitas alami dengan laut."
+  },
+  {
+    "id": "rod_carbon",
+    "name": "Carbon Pro",
+    "type": "rod",
+    "price": 8500,
+    "luck": 28,
+    "time_bonus": 0.2,
+    "description": "Sangat ringan dan kuat. Standar profesional untuk turnamen."
+  },
+  {
+    "id": "rod_obsidian",
+    "name": "Obsidian Heavy",
+    "type": "rod",
+    "price": 12000,
+    "luck": 32,
+    "time_bonus": 0.0,
+    "description": "Joran batuan vulkanik hitam pekat. Sangat kuat, tapi berat (tidak ada bonus waktu)."
+  },
+  {
+    "id": "rod_titanium",
+    "name": "Titanium Caster",
+    "type": "rod",
+    "price": 16000,
+    "luck": 38,
+    "time_bonus": 0.2,
+    "description": "Logam aerospace yang sangat ringan. Reaksi pancingan menjadi cepat."
+  },
+  {
+    "id": "rod_emerald",
+    "name": "Emerald Seeker",
+    "type": "rod",
+    "price": 22000,
+    "luck": 45,
+    "time_bonus": 0.25,
+    "description": "Bertahtakan batu zamrud. Cahaya hijaunya menarik perhatian ikan langka."
+  },
+  {
+    "id": "rod_golden",
+    "name": "Golden Rod",
+    "type": "rod",
+    "price": 28000,
+    "luck": 55,
+    "time_bonus": 0.2,
+    "description": "Joran berlapis emas murni. Kemilauannya menarik ikan Mitos."
+  },
+  {
+    "id": "rod_neptune",
+    "name": "Neptune's Trident",
+    "type": "rod",
+    "price": 45000,
+    "luck": 70,
+    "time_bonus": 0.2,
+    "description": "Joran berbentuk trisula legendaris. Luck sangat tinggi, tapi sulit dikendalikan."
+  },
+  {
+    "id": "rod_plasma",
+    "name": "Plasma X-99",
+    "type": "rod",
+    "price": 60000,
+    "luck": 78,
+    "time_bonus": 0.4,
+    "description": "Teknologi masa depan. Menggunakan gelombang plasma untuk menjerat ikan."
+  },
+  {
+    "id": "rod_quantum",
+    "name": "Quantum Caster",
+    "type": "rod",
+    "price": 80000,
+    "luck": 85,
+    "time_bonus": 0.3,
+    "description": "Memanipulasi realita. Diperlukan untuk memancing Godly secara konsisten."
+  },
+  {
+    "id": "rod_starlight",
+    "name": "Starlight Weaver",
+    "type": "rod",
+    "price": 150000,
+    "luck": 120,
+    "time_bonus": 0.3,
+    "description": "Ditempa dari serpihan bintang jatuh. Kekuatan kosmik absolut."
+  },
+  {
+    "id": "rod_void",
+    "name": "Void Walker",
+    "type": "rod",
+    "price": 500000,
+    "luck": 180,
+    "time_bonus": 0.5,
+    "description": "Joran yang menyerap cahaya. Bisa menarik monster dari dimensi lain."
+  },
+  {
+    "id": "rod_infinity",
+    "name": "Infinity Caster",
+    "type": "rod",
+    "price": 1500000,
+    "luck": 250,
+    "time_bonus": 0.6,
+    "description": "Melampaui batas ruang dan waktu. Godly fish terasa seperti ikan biasa."
+  },
+  {
+    "id": "rod_creator",
+    "name": "The Creator's Pen",
+    "type": "rod",
+    "price": 5000000,
+    "luck": 400,
+    "time_bonus": 1.0,
+    "description": "Alat yang digunakan dewa untuk menulis takdir lautan. Kekuatan absolut."
+  },
+  {
+    "id": "charm_worm",
+    "name": "Live Bait",
+    "type": "charm",
+    "price": 500,
+    "luck": 3,
+    "time_bonus": 0.0,
+    "description": "Umpan cacing hidup. Sedikit lebih menarik daripada umpan roti."
+  },
+  {
+    "id": "charm_lamp",
+    "name": "Lure Lamp",
+    "type": "charm",
+    "price": 1500,
+    "luck": 5,
+    "time_bonus": 0.0,
+    "description": "Lampu kecil anti air. Berguna di perairan gelap."
+  },
+  {
+    "id": "charm_glove",
+    "name": "Sticky Gloves",
+    "type": "charm",
+    "price": 3000,
+    "luck": 5,
+    "time_bonus": 0.2,
+    "description": "Sarung tangan lengket agar tidak licin. Waktu QTE +0.2 detik."
+  },
+  {
+    "id": "charm_clover",
+    "name": "Lucky Clover",
+    "type": "charm",
+    "price": 5000,
+    "luck": 15,
+    "time_bonus": 0.0,
+    "description": "Daun semanggi empat kelopak. Fokus penuh pada keberuntungan."
+  },
+  {
+    "id": "charm_feather",
+    "name": "Hermes Feather",
+    "type": "charm",
+    "price": 6500,
+    "luck": 2,
+    "time_bonus": 0.5,
+    "description": "Bulu dewa kecepatan. Memberikan bonus waktu reaksi yang besar."
+  },
+  {
+    "id": "charm_glasses",
+    "name": "Polarized Glasses",
+    "type": "charm",
+    "price": 8000,
+    "luck": 10,
+    "time_bonus": 0.1,
+    "description": "Kacamata anti-silau. Membantu melihat bayangan ikan lebih jelas."
+  },
+  {
+    "id": "charm_anchor",
+    "name": "Heavy Anchor",
+    "type": "charm",
+    "price": 12000,
+    "luck": 22,
+    "time_bonus": -0.1,
+    "description": "Menjaga kestabilan joran. Luck tinggi, tapi sedikit memperlambat gerak (Time -0.1)."
+  },
+  {
+    "id": "charm_sonar",
+    "name": "Fish Finder 3000",
+    "type": "charm",
+    "price": 15000,
+    "luck": 25,
+    "time_bonus": 0.2,
+    "description": "Sonar canggih. Keseimbangan sempurna antara Luck dan Waktu."
+  },
+  {
+    "id": "charm_magnet",
+    "name": "Abyssal Magnet",
+    "type": "charm",
+    "price": 22000,
+    "luck": 40,
+    "time_bonus": 0.2,
+    "description": "Menarik ikan logam mulia dari kedalaman. Luck sangat tinggi."
+  },
+  {
+    "id": "charm_time",
+    "name": "Chronos Watch",
+    "type": "charm",
+    "price": 30000,
+    "luck": 10,
+    "time_bonus": 1.0,
+    "description": "Memperlambat waktu di sekitarmu. Waktu QTE +1.0 detik (Sangat berguna untuk Godly)."
+  },
+  {
+    "id": "charm_siren",
+    "name": "Siren's Scale",
+    "type": "charm",
+    "price": 42000,
+    "luck": 45,
+    "time_bonus": 0.3,
+    "description": "Sisik putri duyung. Nyanyiannya memikat ikan-ikan legendaris."
+  },
+  {
+    "id": "charm_dragon",
+    "name": "Dragon Pearl",
+    "type": "charm",
+    "price": 55000,
+    "luck": 50,
+    "time_bonus": 0.3,
+    "description": "Mutiara naga yang bersinar. Jimat terbaik untuk pemburu harta karun mitos."
+  },
+  {
+    "id": "charm_galaxy",
+    "name": "Galaxy Pendant",
+    "type": "charm",
+    "price": 120000,
+    "luck": 70,
+    "time_bonus": 0.5,
+    "description": "Liontin berisi nebula kecil. Meningkatkan keberuntungan kosmik secara drastis."
+  },
+  {
+    "id": "charm_blackhole",
+    "name": "Singularity Stone",
+    "type": "charm",
+    "price": 300000,
+    "luck": 100,
+    "time_bonus": 0.8,
+    "description": "Batu dari inti lubang hitam. Tidak ada ikan yang bisa lolos dari tarikannya."
+  }
+]

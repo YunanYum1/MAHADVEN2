@@ -1,0 +1,92 @@
+[
+  {
+    "id": "seed_wheat",
+    "name": "Gandum",
+    "emoji_stages": ["🌱", "🌾", "🌾"],
+    "growth_time": 600,
+    "water_interval": 300,
+    "price_buy": 20,
+    "xp_reward": 5
+  },
+  {
+    "id": "seed_potato",
+    "name": "Kentang",
+    "emoji_stages": ["🌱", "🌿", "🥔"],
+    "growth_time": 1200,
+    "water_interval": 600,
+    "price_buy": 50,
+    "xp_reward": 10
+  },
+  {
+    "id": "seed_tomato",
+    "name": "Tomat",
+    "emoji_stages": ["🌱", "🌳", "🍅"],
+    "growth_time": 1800,
+    "water_interval": 900,
+    "price_buy": 80,
+    "xp_reward": 15
+  },
+  {
+    "id": "seed_corn",
+    "name": "Jagung",
+    "emoji_stages": ["🌱", "🌽", "🌽"],
+    "growth_time": 2700,
+    "water_interval": 900,
+    "price_buy": 100,
+    "xp_reward": 20
+  },
+  {
+    "id": "seed_chili",
+    "name": "Cabai",
+    "emoji_stages": ["🌱", "🌶️", "🌶️"],
+    "growth_time": 3600,
+    "water_interval": 1200,
+    "price_buy": 150,
+    "xp_reward": 30
+  },
+  {
+    "id": "seed_carrot",
+    "name": "Wortel",
+    "emoji_stages": ["🌱", "🥕", "🥕"],
+    "growth_time": 5400,
+    "water_interval": 1800,
+    "price_buy": 200,
+    "xp_reward": 40
+  },
+  {
+    "id": "seed_strawberry",
+    "name": "Stroberi",
+    "emoji_stages": ["🌱", "🌸", "🍓"],
+    "growth_time": 7200,
+    "water_interval": 1800,
+    "price_buy": 350,
+    "xp_reward": 60
+  },
+  {
+    "id": "seed_pumpkin",
+    "name": "Labu",
+    "emoji_stages": ["🌱", "🌿", "🎃"],
+    "growth_time": 10800,
+    "water_interval": 3600,
+    "price_buy": 500,
+    "xp_reward": 80
+  },
+  {
+    "id": "seed_watermelon",
+    "name": "Semangka",
+    "emoji_stages": ["🌱", "🍈", "🍉"],
+    "growth_time": 14400,
+    "water_interval": 3600,
+    "price_buy": 800,
+    "xp_reward": 120
+  },
+  {
+    "id": "seed_mystic",
+    "name": "Bunga Mistik",
+    "emoji_stages": ["✨", "❇️", "💠"],
+    "growth_time": 43200,
+    "water_interval": 10800,
+    "price_buy": 5000,
+    "xp_reward": 500
+  }
+]
